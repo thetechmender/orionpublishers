@@ -136,11 +136,11 @@
     <Content Include="assets\images\test_thumb.png" />
     <Content Include="assets\js\owl.carousel.min.js" />
     <Content Include="assets\js\script.js" />
-    <Content Include="book-writing-service.aspx" />
-    <Content Include="book-publishing-service.aspx" />
-    <Content Include="book-marketing-service.aspx" />
-    <Content Include="book-editing-service.aspx" />
-    <Content Include="book-design-service.aspx" />
+    <Content Include="book-writing-services.aspx" />
+    <Content Include="book-publishing-services.aspx" />
+    <Content Include="book-marketing-services.aspx" />
+    <Content Include="book-editing-services.aspx" />
+    <Content Include="book-design-services.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -159,7 +159,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="audiobook-service.aspx" />
+    <Content Include="audiobook-services.aspx" />
     <Content Include="Default - Copy.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -323,35 +323,35 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="book-writing-service.aspx.cs">
-      <DependentUpon>book-writing-service.aspx</DependentUpon>
+    <Compile Include="book-writing-services.aspx.cs">
+      <DependentUpon>book-writing-services.aspx</DependentUpon>
     </Compile>
-    <Compile Include="book-writing-service.aspx.designer.cs">
-      <DependentUpon>book-writing-service.aspx</DependentUpon>
+    <Compile Include="book-writing-services.aspx.designer.cs">
+      <DependentUpon>book-writing-services.aspx</DependentUpon>
     </Compile>
-    <Compile Include="book-publishing-service.aspx.cs">
-      <DependentUpon>book-publishing-service.aspx</DependentUpon>
+    <Compile Include="book-publishing-services.aspx.cs">
+      <DependentUpon>book-publishing-services.aspx</DependentUpon>
     </Compile>
-    <Compile Include="book-publishing-service.aspx.designer.cs">
-      <DependentUpon>book-publishing-service.aspx</DependentUpon>
+    <Compile Include="book-publishing-services.aspx.designer.cs">
+      <DependentUpon>book-publishing-services.aspx</DependentUpon>
     </Compile>
-    <Compile Include="book-marketing-service.aspx.cs">
-      <DependentUpon>book-marketing-service.aspx</DependentUpon>
+    <Compile Include="book-marketing-services.aspx.cs">
+      <DependentUpon>book-marketing-services.aspx</DependentUpon>
     </Compile>
-    <Compile Include="book-marketing-service.aspx.designer.cs">
-      <DependentUpon>book-marketing-service.aspx</DependentUpon>
+    <Compile Include="book-marketing-services.aspx.designer.cs">
+      <DependentUpon>book-marketing-services.aspx</DependentUpon>
     </Compile>
-    <Compile Include="book-editing-service.aspx.cs">
-      <DependentUpon>book-editing-service.aspx</DependentUpon>
+    <Compile Include="book-editing-services.aspx.cs">
+      <DependentUpon>book-editing-services.aspx</DependentUpon>
     </Compile>
-    <Compile Include="book-editing-service.aspx.designer.cs">
-      <DependentUpon>book-editing-service.aspx</DependentUpon>
+    <Compile Include="book-editing-services.aspx.designer.cs">
+      <DependentUpon>book-editing-services.aspx</DependentUpon>
     </Compile>
-    <Compile Include="book-design-service.aspx.cs">
-      <DependentUpon>book-design-service.aspx</DependentUpon>
+    <Compile Include="book-design-services.aspx.cs">
+      <DependentUpon>book-design-services.aspx</DependentUpon>
     </Compile>
-    <Compile Include="book-design-service.aspx.designer.cs">
-      <DependentUpon>book-design-service.aspx</DependentUpon>
+    <Compile Include="book-design-services.aspx.designer.cs">
+      <DependentUpon>book-design-services.aspx</DependentUpon>
     </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
@@ -360,11 +360,11 @@
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="audiobook-service.aspx.cs">
-      <DependentUpon>audiobook-service.aspx</DependentUpon>
+    <Compile Include="audiobook-services.aspx.cs">
+      <DependentUpon>audiobook-services.aspx</DependentUpon>
     </Compile>
-    <Compile Include="audiobook-service.aspx.designer.cs">
-      <DependentUpon>audiobook-service.aspx</DependentUpon>
+    <Compile Include="audiobook-services.aspx.designer.cs">
+      <DependentUpon>audiobook-services.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default - Copy.aspx.cs">
       <DependentUpon>Default - Copy.aspx</DependentUpon>
