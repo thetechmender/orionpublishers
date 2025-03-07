@@ -13,5 +13,23 @@ namespace orionpublishers.lp
 
     public partial class audiobook_service
     {
+
+        /// <summary>
+        /// LpBannerForm453 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::orionpublishers.includes.LpBannerForm LpBannerForm453;
+
+        /// <summary>
+        /// LpPopupForm321 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::orionpublishers.includes.LpPopupForm LpPopupForm321;
     }
 }

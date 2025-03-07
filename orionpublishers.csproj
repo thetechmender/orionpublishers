@@ -162,6 +162,8 @@
     <Content Include="email.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="includes\LpBannerForm.ascx" />
+    <Content Include="includes\LpPopupForm.ascx" />
     <Content Include="lp\book-writing-service.aspx" />
     <Content Include="lp\book-publishing-service.aspx" />
     <Content Include="lp\book-marketing-service.aspx" />
@@ -385,6 +387,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="includes\LpBannerForm.ascx.cs">
+      <DependentUpon>LpBannerForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="includes\LpBannerForm.ascx.designer.cs">
+      <DependentUpon>LpBannerForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="includes\LpPopupForm.ascx.cs">
+      <DependentUpon>LpPopupForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="includes\LpPopupForm.ascx.designer.cs">
+      <DependentUpon>LpPopupForm.ascx</DependentUpon>
     </Compile>
     <Compile Include="lp\book-writing-service.aspx.cs">
       <DependentUpon>book-writing-service.aspx</DependentUpon>

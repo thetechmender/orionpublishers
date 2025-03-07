@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="book-writing-service.aspx.cs" Inherits="orionpublishers.lp.audiobook_service" %>
-
+<%@ Register Src="/includes/LpPopupForm.ascx" TagName="LpPopupForm" TagPrefix="uc" %>
+<%@ Register Src="/includes/LpBannerForm.ascx" TagName="LpBannerForm" TagPrefix="uc" %>
 
 
 <!DOCTYPE html>
@@ -19,6 +20,7 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
+            <link href="/assets/css/intlTelInput.min.css" rel="stylesheet" />
 
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <style>
@@ -155,21 +157,31 @@
                                         </p>
                                         <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Coupons Left</p>
                                     </div>
-                                    <form>
+                                    <form  id="form1" method="post" action="/email">
                                         <div class="mb-3 ">
                                             <label for="name">Enter Name</label>
-                                            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter Your Full Name">
+                                            <input type="text" class="form-control" id="cn" name="cn" aria-describedby="name" placeholder="Enter Your Full Name">
                                         </div>
                                         <div class="mb-3">
                                             <label for="name">Enter Email</label>
-                                            <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter Your Full Email">
+                                            <input type="email" class="form-control" id="em" name="em"  aria-describedby="email" placeholder="Enter Your Full Email">
                                         </div>
                                         <div class="mb-3">
                                             <label for="name">Enter Number</label>
-                                            <input type="number" class="form-control" id="number" aria-describedby="number" placeholder="Enter Your Full Number">
+                                            <div class="w-100 mb-2 iti-group">
+                                                <input type="hidden" value="" class="countryname">
+                                                <input type="hidden" value="" class="countrycode">
+                                                <input type="hidden" value="" class="dialcode" id="dc" name="dc">
+                                                <input type="tel" class="form-control js-valGet pn js-numbervalid js-byphone" maxlength="10" id="pn" name="pn"
+                                                    placeholder="Enter Your Number" aria-label="Phone Number" required>
+                                            </div>
                                         </div>
 
                                         <div class="d-flex justify-content-center needhelps">
+                                                                                        <p>
+                                                <span id="error-message2" style="color: Red;"></span>
+                                            </p>
+                                            <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
 
                                             <div class="submit">
                                                 <button type="submit" class="btn btn-primary">Submit</button>
@@ -672,42 +684,7 @@ INCORPORATION</h3>
             </div>
         </div>
 
-        <div class="ourcontactsforms">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h3>Ready to Share Your Story?</h3>
-                        <p>Amazon Publishers helped numerous authors transform their manuscripts into published works that captivate readers. Whether you’re a seasoned author seeking new avenues or an emerging writer with a fresh perspective, our Amazon Self-Publishing service welcomes you to join the ranks of successful authors who have embraced this empowering pathway to authorship.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="formbottom">
-                            <form>
-                                <div class="mb-3">
-                                    <label for="Name" class="form-label">Name</label>
-                                    <input type="Name" class="form-control" id="Name" aria-describedby="Name">
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="Phone" class="form-label">Phone</label>
-                                    <input type="Phone" class="form-control" id="Phone" aria-describedby="Phone">
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="Email" class="form-label">Email</label>
-                                    <input type="Email" class="form-control" id="Email" aria-describedby="Email">
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <div class="buttonbox">
-
-                                        <input value="submit" class="form-control">
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<uc:LpBannerForm ID="LpBannerForm1" runat="server" />
     </main>
 
     <div class="footers">
@@ -735,83 +712,9 @@ INCORPORATION</h3>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="/assets/js/owl.carousel.min.js"></script>
 <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/intl-tel-input.js"></script>
 
 
 
+    <uc:LpPopupForm ID="LpPopupForm511" runat="server" />
 
-<div class="modal fade custompopupleads" id="loadspopup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loadspopupLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-xl">
-        <div class="modal-content">
-            <div class="promotion-cont-row">
-                <div class="promo-cont-left-box">
-                    <img loading="lazy" src="../assets/images/banner-image-home.webp" alt="promotion-character-image">
-                </div>
-                <div class="promo-cont-right-box">
-                    <div class="modal-header border-0">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                            <img loading="lazy" src="../assets/images/promo-cross-icon.webp" alt="promo-cross-icon"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row service-banner-form">
-                            <div class="spacetbs">
-                                <div class="myformtext text-center">
-                                    <div class="limited">
-                                        <p>Limited Time Offer</p>
-                                    </div>
-                                    <p class="stylepara">
-                                        Get <span class="redcolor pricefont"><b>50%</b></span> Off on
-                                            <span class="redcolor">
-                                                <span2 class="pricefont">2D</span2>
-                                                Animations</span>
-
-
-                                    </p>
-                                    <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Coupons Left</p>
-                                </div>
-                                <%--     <div class="myheadings">
-                                            <h2 class="mt-0 mb-2">Sign up Today and
-                                        <br>
-                                        Get <span class="sitecolor">30% Discount </span>on all Services.</h2>
-                                        </div>--%>
-                                <div class="col-md-12">
-                                    <input name="txtcnpromo" type="text" maxlength="60" id="txtcnpromo" class="form-control" placeholder="Enter Your Name" />
-                                    <span data-val-controltovalidate="txtcnpromo" data-val-errormessage="Please enter correct name" data-val-display="Dynamic" data-val-validationgroup="E" id="RegularExpressionValidator9" class="text-danger" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="^[a-zA-Z\s]+$" style="display: none;">Please enter correct name</span>
-                                    <span data-val-controltovalidate="txtcnpromo" data-val-errormessage="*" data-val-display="Dynamic" data-val-validationgroup="E" id="RequiredFieldValidator10" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color: Red; display: none;">*</span>
-                                </div>
-                                <div class="col-md-12">
-                                    <input name="txtempromo" type="text" id="txtempromo" class="form-control" placeholder="Enter Your Email" />
-                                    <span data-val-controltovalidate="txtempromo" data-val-errormessage="Please enter correct email" data-val-display="Dynamic" data-val-validationgroup="E" id="RegularExpressionValidator10" class="text-danger" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" style="display: none;">Please enter correct email</span>
-                                    <span data-val-controltovalidate="txtempromo" data-val-errormessage="*" data-val-display="Dynamic" data-val-validationgroup="E" id="RequiredFieldValidator11" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color: Red; display: none;">*</span>
-                                </div>
-                                <div class="col-12 pb-3">
-                                    <div class="form-group iti-group ">
-                                        <input type="hidden" value="" class="countryname">
-                                        <input type="hidden" value="" class="countrycode">
-                                        <input type="hidden" value="" class="dialcode" name="dcpromo" id="dcpromo">
-                                        <input name="pnpromo" type="tel" id="pnpromo" maxlength="10" minlength="10" tabindex="-1" class="form-control js-valGet pn js-numbervalid js-byphone" placeholder="Enter Your Phone" />
-                                        <span data-val-controltovalidate="pnpromo" data-val-errormessage="*" data-val-display="Dynamic" data-val-validationgroup="E" id="RequiredFieldValidator12" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color: Red; display: none;">*</span>
-                                        <span data-val-controltovalidate="pnpromo" data-val-errormessage="Please enter correct number 0 to 9" data-val-display="Dynamic" data-val-validationgroup="E" id="RegularExpressionValidator11" class="text-danger" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="^[0-9]{10}$" style="display: none;">Please enter correct number 0 to 9</span>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <textarea name="txttrpromo" rows="2" cols="20" id="txttrpromo" class="form-control tr" placeholder="Share Some Details About Your Project">
-</textarea>
-                                </div>
-                                <input type="hidden" value="" class="" name="siteVisitorpromo">
-
-                                <div class="col-12 text-center">
-                                    <p>
-                                        <span id="lblErrorMessagepromo" style="color: Red;"></span>
-                                    </p>
-                                    <input type="hidden" name="hdnPageUrlpromo" id="hdnPageUrlpromo" value="https://www.animixie.com/lp/2d-animation-services" />
-
-                                    <input type="submit" name="Button2" value="Avail Offer" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;Button2&quot;, &quot;&quot;, true, &quot;E&quot;, &quot;&quot;, false, false))" id="Button2" class="btn btn-primary" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
