@@ -1354,6 +1354,10 @@ span.font-textleadpopup {
     .contactbanner .contentsectionbanner {
         padding: 30px 0;
     }
+
+.contentsectionbanner .forms.customformstyles .iti__selected-dial-code {
+    color: #Fff;
+}
 /*
     .contactbanner:after {
         background: url(../images/contact-page.webp);
@@ -1371,13 +1375,26 @@ span.font-textleadpopup {
     }*/
     /* For Smaller Screens - Navbar Links */
     @media (max-width: 1400px) {
+
+        .myh22nd .d-flex.justify-content-end {
+            height: 100% !important;
+            align-items: center;
+        }
         .boxonecta h2 {
             font-size: 40px;
             line-height: 45px;
             margin-bottom: 15px;
         }
+        .homefinals h1 {
+       
+            width: 100%;
+        }
 
-        .Contactbox h2 {
+        .icon-row p {
+            text-align: left;
+        }
+
+            .Contactbox h2 {
             font-size: 120px;
         }
 
@@ -1424,6 +1441,11 @@ span.font-textleadpopup {
 
 
     @media (max-width: 1200px) {
+
+        .headingafterslider h2 {
+            font-size: 42px;
+       
+        }
         .container {
             max-width: 1200px !important;
             padding: 0 50px !important;
@@ -1469,6 +1491,10 @@ span.font-textleadpopup {
 
 
     @media (max-width: 992px) {
+
+        .homefinals .content-header.text-center.homefinals h1 {
+            font-size: 35px !important;
+        }
         .spacetbs {
             padding: 20px 0 20px 0;
         }
@@ -1755,6 +1781,17 @@ span.font-textleadpopup {
 
 
     @media (max-width: 480px) {
+
+        .contentsectionbanner .icon-row.d-flex p {
+            line-height: 15px !important;
+            font-size: 13px !important;
+            margin-left: 0;
+            padding-left: 5px;
+        }
+
+        .contentsectionbanner .icon-row.d-flex img {
+            width: 30px
+        }
         .custompopupleads p.stylepara {
             font-size: 29px;
         }

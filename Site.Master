@@ -207,7 +207,7 @@
                                             <span data-val-controltovalidate="txtempromo" data-val-errormessage="Please enter correct email" data-val-display="Dynamic" data-val-validationgroup="E" id="RegularExpressionValidator10" class="text-danger" data-val="true" data-val-evaluationfunction="RegularExpressionValidatorEvaluateIsValid" data-val-validationexpression="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" style="display: none;">Please enter correct email</span>
                                             <span data-val-controltovalidate="txtempromo" data-val-errormessage="*" data-val-display="Dynamic" data-val-validationgroup="E" id="RequiredFieldValidator11" data-val="true" data-val-evaluationfunction="RequiredFieldValidatorEvaluateIsValid" data-val-initialvalue="" style="color: Red; display: none;">*</span>
                                         </div>
-                                        <div class="col-12 pb-3">
+                                        <div class="col-12">
                                             <div class="col-12 mb-3">
                                                 <div class="w-100 mb-2 iti-group">
                                                     <input type="hidden" value="" class="countryname">
