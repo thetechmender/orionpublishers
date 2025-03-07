@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7626CDD3-94C0-48F4-B796-0062B16B9585}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>orionpublishers</RootNamespace>
+    <AssemblyName>orionpublishers</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44335</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.Web.Infrastructure.2.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\fonts\demo.html" />
+    <Content Include="assets\fonts\stylesheet.css" />
+    <Content Include="assets\images\Group 125.png" />
+    <Content Include="assets\images\logo-image.png" />
+    <Content Include="assets\images\New folder\book01.png" />
+    <Content Include="assets\images\New folder\book02.png" />
+    <Content Include="assets\images\New folder\book03.png" />
+    <Content Include="assets\images\New folder\book04.png" />
+    <Content Include="assets\images\New folder\book05.png" />
+    <Content Include="assets\images\New folder\book06.png" />
+    <Content Include="assets\images\New folder\book07.png" />
+    <Content Include="assets\images\New folder\book08.png" />
+    <Content Include="assets\images\New folder\book09.png" />
+    <Content Include="assets\images\New folder\book10.png" />
+    <Content Include="assets\images\New folder\book11.png" />
+    <Content Include="assets\images\New folder\buttons-right.png" />
+    <Content Include="assets\images\New folder\Ellipse 6.png" />
+    <Content Include="assets\images\New folder\Group 521.png" />
+    <Content Include="assets\images\New folder\pexels-andrew-dick-697509.png" />
+    <Content Include="assets\images\New folder\printer-3d-style-trending-color-palette-with-generative-ai.png" />
+    <Content Include="assets\images\New folder\servicebox1.png" />
+    <Content Include="assets\images\New folder\servicebox2.png" />
+    <Content Include="assets\images\New folder\servicebox3.png" />
+    <Content Include="assets\images\New folder\servicebox4.png" />
+    <Content Include="assets\images\New folder\servicebox5.png" />
+    <Content Include="assets\images\New folder\servicebox6.png" />
+    <Content Include="assets\images\New folder\servicebox7.png" />
+    <Content Include="assets\images\New folder\servicebox8.png" />
+    <Content Include="assets\images\New folder\test_thumb.png" />
+    <Content Include="assets\images\New folder\whitearrowbtn.png" />
+    <Content Include="assets\images\testi-starts.png" />
+    <Content Include="assets\images\testimonials-image1.png" />
+    <Content Include="assets\images\test_thumb.png" />
+    <Content Include="assets\js\owl.carousel.min.js" />
+    <Content Include="assets\js\script.js" />
+    <Content Include="book-writing-service.aspx" />
+    <Content Include="book-publishing-service.aspx" />
+    <Content Include="book-marketing-service.aspx" />
+    <Content Include="book-editing-service.aspx" />
+    <Content Include="book-design-service.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="audiobook-service.aspx" />
+    <Content Include="Default - Copy.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="lp\book-writing-service.aspx" />
+    <Content Include="lp\book-publishing-service.aspx" />
+    <Content Include="lp\book-marketing-service.aspx" />
+    <Content Include="lp\book-editing-service.aspx" />
+    <Content Include="lp\book-design-service.aspx" />
+    <Content Include="lp\audiobook-service.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="assets\images\banner-image-home.webp" />
+    <Content Include="assets\images\book01.webp" />
+    <Content Include="assets\images\book02.webp" />
+    <Content Include="assets\images\book03.webp" />
+    <Content Include="assets\images\book04.webp" />
+    <Content Include="assets\images\book05.webp" />
+    <Content Include="assets\images\book06.webp" />
+    <Content Include="assets\images\book07.webp" />
+    <Content Include="assets\images\book08.webp" />
+    <Content Include="assets\images\book09.webp" />
+    <Content Include="assets\images\book10.webp" />
+    <Content Include="assets\images\book11.webp" />
+    <Content Include="assets\images\buttons-right.webp" />
+    <Content Include="assets\images\contact-image - Copy.webp" />
+    <Content Include="assets\images\contact-image.webp" />
+    <Content Include="assets\images\cta_thumb.webp" />
+    <Content Include="assets\images\debug.log" />
+    <Content Include="assets\images\header-background.webp" />
+    <Content Include="assets\images\logo-banner-after.webp" />
+    <Content Include="assets\images\messages.webp" />
+    <Content Include="assets\images\New folder\book01.webp" />
+    <Content Include="assets\images\New folder\book02.webp" />
+    <Content Include="assets\images\New folder\book03.webp" />
+    <Content Include="assets\images\New folder\book04.webp" />
+    <Content Include="assets\images\New folder\book05.webp" />
+    <Content Include="assets\images\New folder\book06.webp" />
+    <Content Include="assets\images\New folder\book07.webp" />
+    <Content Include="assets\images\New folder\book08.webp" />
+    <Content Include="assets\images\New folder\book09.webp" />
+    <Content Include="assets\images\New folder\book10.webp" />
+    <Content Include="assets\images\New folder\book11.webp" />
+    <Content Include="assets\images\New folder\contact-image.webp" />
+    <Content Include="assets\images\New folder\whitearrowbtn.webp" />
+    <Content Include="assets\images\servicebox1.webp" />
+    <Content Include="assets\images\servicebox2.webp" />
+    <Content Include="assets\images\servicebox3.webp" />
+    <Content Include="assets\images\servicebox4.webp" />
+    <Content Include="assets\images\servicebox5.webp" />
+    <Content Include="assets\images\servicebox6.webp" />
+    <Content Include="assets\images\servicebox7.webp" />
+    <Content Include="assets\images\servicebox8.webp" />
+    <Content Include="assets\images\testi-starts.webp" />
+    <Content Include="assets\images\testimonials-image1.webp" />
+    <Content Include="assets\images\trust-icons.webp" />
+    <Content Include="assets\images\whitearrowbtn.webp" />
+    <Content Include="assets\fonts\Baskerville-LightA.ttf" />
+    <Content Include="assets\fonts\Baskerville-LightA.woff" />
+    <Content Include="assets\fonts\Baskerville-LightA.woff2" />
+    <Content Include="assets\fonts\Baskerville-Normal.ttf" />
+    <Content Include="assets\fonts\Baskerville-Normal.woff" />
+    <Content Include="assets\fonts\Baskerville-Normal.woff2" />
+    <Content Include="assets\fonts\Baskerville.ttf" />
+    <Content Include="assets\fonts\Baskerville.woff" />
+    <Content Include="assets\fonts\Baskerville.woff2" />
+    <Content Include="assets\fonts\BaskervilleBold.ttf" />
+    <Content Include="assets\fonts\BaskervilleBold.woff" />
+    <Content Include="assets\fonts\BaskervilleBold.woff2" />
+    <Content Include="assets\fonts\BaskervilleBold_1.ttf" />
+    <Content Include="assets\fonts\BaskervilleBold_1.woff" />
+    <Content Include="assets\fonts\BaskervilleBold_1.woff2" />
+    <Content Include="assets\fonts\BaskervilleBT-Bold.ttf" />
+    <Content Include="assets\fonts\BaskervilleBT-Bold.woff" />
+    <Content Include="assets\fonts\BaskervilleBT-Bold.woff2" />
+    <Content Include="assets\fonts\BaskervilleBT-BoldItalic.ttf" />
+    <Content Include="assets\fonts\BaskervilleBT-BoldItalic.woff" />
+    <Content Include="assets\fonts\BaskervilleBT-BoldItalic.woff2" />
+    <Content Include="assets\fonts\BaskervilleBT-Bold_1.ttf" />
+    <Content Include="assets\fonts\BaskervilleBT-Bold_1.woff" />
+    <Content Include="assets\fonts\BaskervilleBT-Bold_1.woff2" />
+    <Content Include="assets\fonts\BaskervilleBT-Italic.ttf" />
+    <Content Include="assets\fonts\BaskervilleBT-Italic.woff" />
+    <Content Include="assets\fonts\BaskervilleBT-Italic.woff2" />
+    <Content Include="assets\fonts\BaskervilleBT-Roman.ttf" />
+    <Content Include="assets\fonts\BaskervilleBT-Roman.woff" />
+    <Content Include="assets\fonts\BaskervilleBT-Roman.woff2" />
+    <Content Include="assets\fonts\BaskervilleLight-Italic.ttf" />
+    <Content Include="assets\fonts\BaskervilleLight-Italic.woff" />
+    <Content Include="assets\fonts\BaskervilleLight-Italic.woff2" />
+    <Content Include="assets\fonts\BaskervilleLight.ttf" />
+    <Content Include="assets\fonts\BaskervilleLight.woff" />
+    <Content Include="assets\fonts\BaskervilleLight.woff2" />
+    <None Include="Scripts\jquery-3.7.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.7.0.js" />
+    <Content Include="Scripts\jquery-3.7.0.min.js" />
+    <Content Include="Scripts\jquery-3.7.0.slim.js" />
+    <Content Include="Scripts\jquery-3.7.0.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="thankyou.aspx" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="book-writing-service.aspx.cs">
+      <DependentUpon>book-writing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book-writing-service.aspx.designer.cs">
+      <DependentUpon>book-writing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book-publishing-service.aspx.cs">
+      <DependentUpon>book-publishing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book-publishing-service.aspx.designer.cs">
+      <DependentUpon>book-publishing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book-marketing-service.aspx.cs">
+      <DependentUpon>book-marketing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book-marketing-service.aspx.designer.cs">
+      <DependentUpon>book-marketing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book-editing-service.aspx.cs">
+      <DependentUpon>book-editing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book-editing-service.aspx.designer.cs">
+      <DependentUpon>book-editing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book-design-service.aspx.cs">
+      <DependentUpon>book-design-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="book-design-service.aspx.designer.cs">
+      <DependentUpon>book-design-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="audiobook-service.aspx.cs">
+      <DependentUpon>audiobook-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="audiobook-service.aspx.designer.cs">
+      <DependentUpon>audiobook-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default - Copy.aspx.cs">
+      <DependentUpon>Default - Copy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default - Copy.aspx.designer.cs">
+      <DependentUpon>Default - Copy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="lp\book-writing-service.aspx.cs">
+      <DependentUpon>book-writing-service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lp\book-writing-service.aspx.designer.cs">
+      <DependentUpon>book-writing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lp\book-publishing-service.aspx.cs">
+      <DependentUpon>book-publishing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lp\book-publishing-service.aspx.designer.cs">
+      <DependentUpon>book-publishing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lp\book-marketing-service.aspx.cs">
+      <DependentUpon>book-marketing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lp\book-marketing-service.aspx.designer.cs">
+      <DependentUpon>book-marketing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lp\book-editing-service.aspx.cs">
+      <DependentUpon>book-editing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lp\book-editing-service.aspx.designer.cs">
+      <DependentUpon>book-editing-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lp\book-design-service.aspx.cs">
+      <DependentUpon>book-design-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lp\book-design-service.aspx.designer.cs">
+      <DependentUpon>book-design-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lp\audiobook-service.aspx.cs">
+      <DependentUpon>audiobook-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lp\audiobook-service.aspx.designer.cs">
+      <DependentUpon>audiobook-service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="thankyou.aspx.cs">
+      <DependentUpon>thankyou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="thankyou.aspx.designer.cs">
+      <DependentUpon>thankyou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.7.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.7.0.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60142</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44335/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
