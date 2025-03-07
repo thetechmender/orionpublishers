@@ -13,43 +13,49 @@
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-12 col-md-12">
                             <div class="content-header text-center homefinals">
-                 
+
                                 <h1>From Draft To <span class="sitecolor">Hardcover</span>, We Print Your Literary Success.
-                                    </h1>
-                            <p>A story is not really a story till it gets its own hardcover! ghostbook Hub dose tat for you.</p>
-                           <div class="icon-row d-flex" style="align-items: center; justify-content: center;">
+                                </h1>
+                                <p>A story is not really a story till it gets its own hardcover! ghostbook Hub dose tat for you.</p>
+                                <div class="icon-row d-flex" style="align-items: center; justify-content: center;">
                                     <div>
                                         <img loading="lazy" class="award-badges-images" src="/assets/images/trophy.webp" alt="trophy">
-                                        <p>Award Winning<br>
-                                            Team</p>
+                                        <p>
+                                            Award Winning<br>
+                                            Team
+                                        </p>
                                     </div>
                                     <div>
                                         <img loading="lazy" class="award-badges-images" src="/assets/images/time.webp" alt="time">
-                                        <p>Fastest<br>
-                                            Turnaround</p>
+                                        <p>
+                                            Fastest<br>
+                                            Turnaround
+                                        </p>
                                     </div>
                                     <div>
                                         <img loading="lazy" class="award-badges-images" src="/assets/images/affordable.webp" alt="affordable">
-                                        <p>Affordable<br>
-                                            Pricing</p>
+                                        <p>
+                                            Affordable<br>
+                                            Pricing
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="btndflex mt-4">
 
                                     <div class="header-btn">
                                         <a class="button open-chat-btnn" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Get a Free Quote
-                                            </a>
+                                        </a>
                                     </div>
                                     <div class="btnstyles">
                                         <div class="btnphone ">
                                             <a class="phonebtns" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Request a Callback
-                                                </a>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-           
+
                     </div>
                 </div>
             </div>
@@ -212,7 +218,9 @@
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/story-planing.webp" />
-                            <h3>STORY PLANNING <br /> & OUTLINE CREATION</h3>
+                            <h3>STORY PLANNING
+                                <br />
+                                & OUTLINE CREATION</h3>
                             <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
 
                             <div class="areobtns">
@@ -225,7 +233,9 @@
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/customwriting-services.webp" />
-                            <h3>CUSTOM WRITING <br /> &
+                            <h3>CUSTOM WRITING
+                                <br />
+                                &
 MANUSCRIPT DEVELOPMENT</h3>
                             <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
 
@@ -238,8 +248,9 @@ MANUSCRIPT DEVELOPMENT</h3>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/editing-proofing.webp" />
-                            <h3>EDITING & <br />
-PROOFREADING</h3>
+                            <h3>EDITING &
+                                <br />
+                                PROOFREADING</h3>
                             <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
 
                             <div class="areobtns">
@@ -251,7 +262,9 @@ PROOFREADING</h3>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/revision.webp" />
-                            <h3>REVISIONS & <br />FEEDBACK
+                            <h3>REVISIONS &
+                                <br />
+                                FEEDBACK
 INCORPORATION</h3>
                             <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
 
@@ -523,25 +536,34 @@ INCORPORATION</h3>
                     </div>
                     <div class="col-lg-6">
                         <div class="formbottom">
-                            <form>
+                            <form id="form2" method="post" action="/email">
                                 <div class="mb-3">
                                     <label for="Name" class="form-label">Name</label>
-                                    <input type="Name" class="form-control" id="Name" aria-describedby="Name">
+                                    <input type="text" class="form-control" id="cn" name="cn" aria-describedby="Name">
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="Phone" class="form-label">Phone</label>
-                                    <input type="Phone" class="form-control" id="Phone" aria-describedby="Phone">
+                                    <div class="w-100 mb-2 iti-group">
+                                        <input type="hidden" value="" class="countryname">
+                                        <input type="hidden" value="" class="countrycode">
+                                        <input type="hidden" value="" class="dialcode" id="dc" name="dc">
+                                        <input type="tel" class="form-control js-valGet pn js-numbervalid js-byphone" maxlength="10" id="pn" name="pn"
+                                            placeholder="Phone Number" aria-label="Phone Number" required>
+                                    </div>
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="Email" class="form-label">Email</label>
-                                    <input type="Email" class="form-control" id="Email" aria-describedby="Email">
+                                    <input type="Email" class="form-control" id="em" name="em" aria-describedby="Email">
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="buttonbox">
-
-                                        <input value="submit" class="form-control">
+                                        <p>
+                                            <span id="error-message2" style="color: Red;"></span>
+                                        </p>
+                                        <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
+                                        <input type="submit" class="form-control">
                                     </div>
                                 </div>
                             </form>

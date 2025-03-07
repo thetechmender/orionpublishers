@@ -15,7 +15,7 @@
                             <div class="content-header">
                                 <span1>Bring Your Ideas to Life with</span1>
                                 <h1>Are You Ready To <span class="sitecolor">Self-Publish</span> Your Book On Amazon?
-                                    </h1>
+                                </h1>
                                 <div class="custombullit ptpbnew">
                                     <ul>
                                         <li>Engaging Animations to Drive Conversions</li>
@@ -24,33 +24,39 @@
 
                                     </ul>
                                 </div>
-                               <div class="icon-row d-flex" style="align-items: center; justify-content: start;">
+                                <div class="icon-row d-flex" style="align-items: center; justify-content: start;">
                                     <div>
                                         <img loading="lazy" class="award-badges-images" src="/assets/images/trophy.webp" alt="trophy">
-                                        <p>Award Winning<br>
-                                            Team</p>
+                                        <p>
+                                            Award Winning<br>
+                                            Team
+                                        </p>
                                     </div>
                                     <div>
                                         <img loading="lazy" class="award-badges-images" src="/assets/images/time.webp" alt="time">
-                                        <p>Fastest<br>
-                                            Turnaround</p>
+                                        <p>
+                                            Fastest<br>
+                                            Turnaround
+                                        </p>
                                     </div>
                                     <div>
                                         <img loading="lazy" class="award-badges-images" src="/assets/images/affordable.webp" alt="affordable">
-                                        <p>Affordable<br>
-                                            Pricing</p>
+                                        <p>
+                                            Affordable<br>
+                                            Pricing
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="btndflex mt-4">
 
                                     <div class="header-btn">
                                         <a class="button open-chat-btnn" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Get a Free Quote
-                                            </a>
+                                        </a>
                                     </div>
                                     <div class="btnstyles">
                                         <div class="btnphone ">
                                             <a class="phonebtns" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Request a Callback
-                                                </a>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -61,33 +67,43 @@
 
                                 <div class="forms customformstyles">
                                     <div class="myformtext text-center">
-                                      <div class="limited">
-                                                <p>Limited Time Offer</p>
-                                            </div>
-<p class="stylepara">
-                                                Get 50% Off on 2D Animations
+                                        <div class="limited">
+                                            <p>Limited Time Offer</p>
+                                        </div>
+                                        <p class="stylepara">
+                                            Get 50% Off on 2D Animations
 
 
-                                            </p>
-   <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Coupons Left</p>
+                                        </p>
+                                        <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Coupons Left</p>
                                     </div>
-                                    <form>
+                                    <form id="form2" method="post" action="/email">
                                         <div class="mb-3 ">
                                             <label for="name">Enter Name</label>
-                                            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter Your Full Name">
+                                            <input type="text" class="form-control" id="cn" name="cn" aria-describedby="name" placeholder="Enter Your Full Name">
                                         </div>
                                         <div class="mb-3">
                                             <label for="name">Enter Email</label>
-                                            <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter Your Full Email">
+                                            <input type="email" class="form-control" id="em" name="em" aria-describedby="email" placeholder="Enter Your Full Email">
                                         </div>
                                         <div class="mb-3">
                                             <label for="name">Enter Number</label>
-                                            <input type="number" class="form-control" id="number" aria-describedby="number" placeholder="Enter Your Full Number">
+                                            <div class="w-100 mb-2 iti-group">
+                                                <input type="hidden" value="" class="countryname">
+                                                <input type="hidden" value="" class="countrycode">
+                                                <input type="hidden" value="" class="dialcode" id="dc" name="dc">
+                                                <input type="tel" class="form-control js-valGet pn js-numbervalid js-byphone" maxlength="10" id="pn" name="pn"
+                                                    placeholder="Enter Phone Number" aria-label="Phone Number" required>
+                                            </div>
                                         </div>
 
                                         <div class="d-flex justify-content-center needhelps">
 
                                             <div class="submit">
+                                                <p>
+                                                    <span id="error-message2" style="color: Red;"></span>
+                                                </p>
+                                                <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
                                                 <button type="submit" class="btn btn-primary">Submit</button>
                                             </div>
                                         </div>
@@ -123,20 +139,20 @@
                         <div class="contentfirsts">
                             <h2>Reliable Article Publishing Quality <span class="sitecolor">Article Writing Services</span></h2>
                             <p>Let's have a look at the content lifecycle and see how our article-writing services may help you at each stage. When you use our Article Writing services, you will receive original and well-research content in the form of articles. We create customized articles according to the needs and requirements of our clients. Our team of experienced editors, writers, and researchers takes your ideas and transforms them into persuasive and SEO-friendly articles. With a keen eye for detail and a commitment to meeting deadlines.</p>
-                     
-                        <div class="btndflex whitepe mt-4">
 
-                                    <div class="header-btn">
-                                        <a class="button open-chat-btnn" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Get a Free Quote
-                                            </a>
+                            <div class="btndflex whitepe mt-4">
+
+                                <div class="header-btn">
+                                    <a class="button open-chat-btnn" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Get a Free Quote
+                                    </a>
+                                </div>
+                                <div class="btnstyles">
+                                    <div class="btnphone ">
+                                        <a class="phonebtns" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Request a Callback
+                                        </a>
                                     </div>
-                                    <div class="btnstyles">
-                                        <div class="btnphone ">
-                                            <a class="phonebtns" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Request a Callback
-                                                </a>
-                                        </div>
-                                    </div>
-                                </div>    
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -279,7 +295,9 @@
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/story-planing.webp" />
-                            <h3>STORY PLANNING <br /> & OUTLINE CREATION</h3>
+                            <h3>STORY PLANNING
+                                <br />
+                                & OUTLINE CREATION</h3>
                             <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
 
                             <div class="areobtns">
@@ -292,7 +310,9 @@
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/customwriting-services.webp" />
-                            <h3>CUSTOM WRITING <br /> &
+                            <h3>CUSTOM WRITING
+                                <br />
+                                &
 MANUSCRIPT DEVELOPMENT</h3>
                             <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
 
@@ -305,8 +325,9 @@ MANUSCRIPT DEVELOPMENT</h3>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/editing-proofing.webp" />
-                            <h3>EDITING & <br />
-PROOFREADING</h3>
+                            <h3>EDITING &
+                                <br />
+                                PROOFREADING</h3>
                             <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
 
                             <div class="areobtns">
@@ -318,7 +339,9 @@ PROOFREADING</h3>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/revision.webp" />
-                            <h3>REVISIONS & <br />FEEDBACK
+                            <h3>REVISIONS &
+                                <br />
+                                FEEDBACK
 INCORPORATION</h3>
                             <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
 
@@ -590,25 +613,34 @@ INCORPORATION</h3>
                     </div>
                     <div class="col-lg-6">
                         <div class="formbottom">
-                            <form>
+                            <form id="form3" method="post" action="/email">
                                 <div class="mb-3">
                                     <label for="Name" class="form-label">Name</label>
-                                    <input type="Name" class="form-control" id="Name" aria-describedby="Name">
+                                    <input class="form-control" id="cn" name="cn" aria-describedby="Name">
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="Phone" class="form-label">Phone</label>
-                                    <input type="Phone" class="form-control" id="Phone" aria-describedby="Phone">
+                                    <div class="w-100 mb-2 iti-group">
+                                        <input type="hidden" value="" class="countryname">
+                                        <input type="hidden" value="" class="countrycode">
+                                        <input type="hidden" value="" class="dialcode" id="dc" name="dc">
+                                        <input type="tel" class="form-control js-valGet pn js-numbervalid js-byphone" maxlength="10" id="pn" name="pn"
+                                            placeholder="Phone Number" aria-label="Phone Number" required>
+                                    </div>
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="Email" class="form-label">Email</label>
-                                    <input type="Email" class="form-control" id="Email" aria-describedby="Email">
+                                    <input type="Email" class="form-control" id="em" name="em" aria-describedby="Email">
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="buttonbox">
-
-                                        <input value="submit" class="form-control">
+                                        <p>
+                                            <span id="error-message3" style="color: Red;"></span>
+                                        </p>
+                                        <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
+                                        <input type="submit" class="form-control">
                                     </div>
                                 </div>
                             </form>

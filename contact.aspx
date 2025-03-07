@@ -9,14 +9,13 @@
             <!-- Content Area -->
             <div class="contentsectionbanner">
                 <div class="container">
-       
                 </div>
             </div>
         </div>
 
 
-    
-       
+
+
 
         <div class="Contactbox custompaddings">
             <div class="container">
@@ -49,24 +48,31 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="formbottom">
-                            <form>
+                            <form method="post" action="/email">
                                 <div class="mb-3">
                                     <label for="Name" class="form-label">Name</label>
-                                    <input type="Name" class="form-control" id="Name" aria-describedby="Name">
+                                    <input class="form-control" id="cn" name="cn" aria-describedby="Name">
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="Phone" class="form-label">Phone</label>
-                                    <input type="Phone" class="form-control" id="Phone" aria-describedby="Phone">
+                                    <%-- <input type="Phone" class="form-control" id="Phone" aria-describedby="Phone">--%>
+                                    <div class="w-100 mb-2 iti-group">
+                                        <input type="hidden" value="" class="countryname">
+                                        <input type="hidden" value="" class="countrycode">
+                                        <input type="hidden" value="" class="dialcode" id="dc" name="dc">
+                                        <input type="tel" class="form-control js-valGet pn js-numbervalid js-byphone" maxlength="10" id="pn" name="pn"
+                                            placeholder="Phone Number" aria-label="Phone Number" required>
+                                    </div>
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="Email" class="form-label">Email</label>
-                                    <input type="Email" class="form-control" id="Email" aria-describedby="Email">
+                                    <input type="Email" class="form-control" id="em" name="em" aria-describedby="Email">
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="buttonbox">
-
+                                        <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
                                         <input value="submit" class="form-control">
                                     </div>
                                 </div>

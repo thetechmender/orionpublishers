@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -94,15 +93,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="assets\css\intlTelInput.min.css" />
     <Content Include="assets\css\style.css" />
     <Content Include="assets\fonts\demo.html" />
     <Content Include="assets\fonts\stylesheet.css" />
+    <Content Include="assets\images\flag.png" />
     <Content Include="assets\images\Group 125.png" />
     <Content Include="assets\images\logo-image.png" />
     <Content Include="assets\images\New folder\book01.png" />
@@ -134,6 +130,7 @@
     <Content Include="assets\images\testi-starts.png" />
     <Content Include="assets\images\testimonials-image1.png" />
     <Content Include="assets\images\test_thumb.png" />
+    <Content Include="assets\js\intl-tel-input.js" />
     <Content Include="assets\js\owl.carousel.min.js" />
     <Content Include="assets\js\script.js" />
     <Content Include="book-writing-services.aspx" />
@@ -162,6 +159,7 @@
     <Content Include="audiobook-services.aspx" />
     <Content Include="Default - Copy.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="email.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="lp\book-writing-service.aspx" />
@@ -214,7 +212,6 @@
     <Content Include="assets\images\contact-image - Copy.webp" />
     <Content Include="assets\images\contact-image.webp" />
     <Content Include="assets\images\cta_thumb.webp" />
-    <Content Include="assets\images\debug.log" />
     <Content Include="assets\images\header-background.webp" />
     <Content Include="assets\images\logo-banner-after.webp" />
     <Content Include="assets\images\messages.webp" />
@@ -379,6 +376,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="email.aspx.cs">
+      <DependentUpon>email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="email.aspx.designer.cs">
+      <DependentUpon>email.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -488,12 +492,6 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
