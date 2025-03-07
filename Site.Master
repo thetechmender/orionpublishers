@@ -49,23 +49,23 @@
                       <a class="nav-link" href="/Default.aspx">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/audiobook-service.aspx">Audiobook</a>
+                      <a class="nav-link" href="/audiobook-services.aspx">Audiobook</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/book-design-service.aspx">Book Design</a>
+                      <a class="nav-link" href="/book-design-services.aspx">Book Design</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/book-editing-service.aspx">Book Editing</a>
+                      <a class="nav-link" href="/book-editing-services.aspx">Book Editing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/book-marketing-service.aspx">Book Marketing</a>
+                        <a class="nav-link" href="/book-marketing-services.aspx">Book Marketing</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/book-publishing-service.aspx">Book  Publishing</a>
+                        <a class="nav-link" href="/book-publishing-services.aspx">Book  Publishing</a>
                       </li>
         
                        <li class="nav-item">
-   <a class="nav-link" href="/book-writing-service.aspx">Book  Writing</a>
+   <a class="nav-link" href="/book-writing-services.aspx">Book  Writing</a>
  </li>
         
                   </ul>
