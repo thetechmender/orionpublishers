@@ -30,6 +30,7 @@
 
 
 <body>
+    <input type="hidden" id="emailPhoneEnabled" value="<%= ConfigurationManager.AppSettings["EmailAndNumberEnabled"] %>" />
     <div class="header-section">
         <div class="banner">
             <!-- Navbar -->
