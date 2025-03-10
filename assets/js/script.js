@@ -95,7 +95,7 @@ $(document).ready(function () {
         nav: false,
         dots: true,
         center: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 500, // Speed of the transition between slides (1000ms = 1 second)
         items: 1, // Default items for larger screens
         stagePadding: 100, // Default padding for larger screens
