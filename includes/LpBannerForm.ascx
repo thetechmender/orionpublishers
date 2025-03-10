@@ -21,7 +21,7 @@
                                 <input type="hidden" value="" class="countrycode">
                                 <input type="hidden" value="" class="dialcode" id="dc" name="dc">
                                 <input type="tel" class="form-control js-valGet pn js-numbervalid js-byphone" maxlength="10" id="pn" name="pn"
-                                   aria-label="Phone Number" required>
+                                    aria-label="Phone Number" required>
                             </div>
                         </div>
 
@@ -29,12 +29,15 @@
                             <label for="Email" class="form-label">Email</label>
                             <input type="Email" class="form-control" id="em" name="em" aria-describedby="Email">
                         </div>
+                        <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
+                        <p>
+                            <span id="error-message2" style="color: Red;"></span>
+                        </p>
                         <div class="d-flex justify-content-end">
+
                             <div class="buttonbox">
-                                                                            <p>
-                                                <span id="error-message1" style="color: Red;"></span>
-                                            </p>
-                                            <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
+
+                                <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
                                 <button type="submit" class="form-control">Submit</button>
                             </div>
                         </div>

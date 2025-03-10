@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="book-design-service.aspx.cs" Inherits="orionpublishers.lp.audiobook_service" %>
+
 <%@ Register Src="/includes/LpPopupForm.ascx" TagName="LpPopupForm" TagPrefix="uc" %>
 <%@ Register Src="/includes/LpBannerForm.ascx" TagName="LpBannerForm" TagPrefix="uc" %>
 
@@ -21,7 +22,7 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-            <link href="/assets/css/intlTelInput.min.css" rel="stylesheet" />
+    <link href="/assets/css/intlTelInput.min.css" rel="stylesheet" />
 
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <style>
@@ -177,11 +178,11 @@
                                                     placeholder="Enter Your Number" aria-label="Phone Number" required>
                                             </div>
                                         </div>
-
+                                        <p>
+                                            <span id="error-message1" style="color: Red;"></span>
+                                        </p>
                                         <div class="d-flex justify-content-center needhelps">
-                                            <p>
-                                                <span id="error-message2" style="color: Red;"></span>
-                                            </p>
+
                                             <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
 
                                             <div class="submit">
@@ -685,7 +686,7 @@ INCORPORATION</h3>
             </div>
         </div>
 
-<uc:LpBannerForm ID="LpBannerForm213213" runat="server" />
+        <uc:LpBannerForm ID="LpBannerForm213213" runat="server" />
 
     </main>
 
@@ -717,7 +718,4 @@ INCORPORATION</h3>
 <script src="/assets/js/intl-tel-input.js"></script>
 
 
-    <uc:LpPopupForm ID="LpPopupForm1" runat="server" />
-
-
- 
+<uc:LpPopupForm ID="LpPopupForm1" runat="server" />

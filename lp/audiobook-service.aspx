@@ -21,12 +21,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link href="/assets/css/intlTelInput.min.css" rel="stylesheet" />
+    <link href="/assets/css/intlTelInput.min.css" rel="stylesheet" />
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <style>
         ul.navbar-nav.mx-auto {
             display: none;
@@ -180,11 +180,11 @@
                                                     placeholder="Enter Your Number" aria-label="Phone Number" required>
                                             </div>
                                         </div>
-
+                                        <p>
+                                            <span id="error-message1" style="color: Red;"></span>
+                                        </p>
                                         <div class="d-flex justify-content-center needhelps">
-                                            <p>
-                                                <span id="error-message2" style="color: Red;"></span>
-                                            </p>
+
                                             <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
 
                                             <div class="submit">
@@ -688,7 +688,7 @@ INCORPORATION</h3>
             </div>
         </div>
 
-<uc:LpBannerForm ID="LpBannerForm3212" runat="server" />
+        <uc:LpBannerForm ID="LpBannerForm3212" runat="server" />
 
     </main>
 
@@ -711,13 +711,13 @@ INCORPORATION</h3>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="/assets/js/intl-tel-input.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/assets/js/intl-tel-input.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/script.js"></script>
 
 
 

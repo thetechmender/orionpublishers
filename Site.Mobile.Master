@@ -381,7 +381,7 @@
                  success: function (response) {
                      if (response == 'true') {
                          $('#error-message3').text('');
-                         $('#form2')[0].submit();
+                         $('#form3')[0].submit();
                      } else {
                          $('#error-message3').text(response);
                      }

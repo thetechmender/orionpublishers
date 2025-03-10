@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="book-writing-service.aspx.cs" Inherits="orionpublishers.lp.audiobook_service" %>
+
 <%@ Register Src="/includes/LpPopupForm.ascx" TagName="LpPopupForm" TagPrefix="uc" %>
 <%@ Register Src="/includes/LpBannerForm.ascx" TagName="LpBannerForm" TagPrefix="uc" %>
 
@@ -20,7 +21,7 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-            <link href="/assets/css/intlTelInput.min.css" rel="stylesheet" />
+    <link href="/assets/css/intlTelInput.min.css" rel="stylesheet" />
 
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <style>
@@ -157,14 +158,14 @@
                                         </p>
                                         <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Coupons Left</p>
                                     </div>
-                                    <form  id="form1" method="post" action="/email">
+                                    <form id="form1" method="post" action="/email">
                                         <div class="mb-3 ">
                                             <label for="name">Enter Name</label>
                                             <input type="text" class="form-control" id="cn" name="cn" aria-describedby="name" placeholder="Enter Your Full Name">
                                         </div>
                                         <div class="mb-3">
                                             <label for="name">Enter Email</label>
-                                            <input type="email" class="form-control" id="em" name="em"  aria-describedby="email" placeholder="Enter Your Full Email">
+                                            <input type="email" class="form-control" id="em" name="em" aria-describedby="email" placeholder="Enter Your Full Email">
                                         </div>
                                         <div class="mb-3">
                                             <label for="name">Enter Number</label>
@@ -176,11 +177,11 @@
                                                     placeholder="Enter Your Number" aria-label="Phone Number" required>
                                             </div>
                                         </div>
-
+                                        <p>
+                                            <span id="error-message1" style="color: Red;"></span>
+                                        </p>
                                         <div class="d-flex justify-content-center needhelps">
-                                                                                        <p>
-                                                <span id="error-message2" style="color: Red;"></span>
-                                            </p>
+
                                             <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
 
                                             <div class="submit">
@@ -684,13 +685,13 @@ INCORPORATION</h3>
             </div>
         </div>
 
-<uc:LpBannerForm ID="LpBannerForm1" runat="server" />
+        <uc:LpBannerForm ID="LpBannerForm1" runat="server" />
     </main>
 
     <div class="footers">
         <div class="container">
             <div class="row paddcs">
-            
+
 
                 <div class="ourfooters">
                     <p>© 2025 orionpublishers. All rights reserved. </p>
@@ -712,9 +713,8 @@ INCORPORATION</h3>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="/assets/js/owl.carousel.min.js"></script>
 <script src="/assets/js/script.js"></script>
-    <script src="/assets/js/intl-tel-input.js"></script>
+<script src="/assets/js/intl-tel-input.js"></script>
 
 
 
-    <uc:LpPopupForm ID="LpPopupForm511" runat="server" />
-
+<uc:LpPopupForm ID="LpPopupForm511" runat="server" />
