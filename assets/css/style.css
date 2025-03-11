@@ -170,9 +170,11 @@ p {
     background: transparent !important;
 }
 
-
+a.navbar-brand.logo img {
+    width: 155px;
+}
 .navbar-nav li {
-    padding: 0 20px;
+    padding: 0 8px;
 }
 .sitecolor {
     color: #59D6E1;
@@ -1373,10 +1375,31 @@ span.font-textleadpopup {
         background-position: right;
         background-size: contain;
     }*/
-    /* For Smaller Screens - Navbar Links */
-    @media (max-width: 1400px) {
 
-        .myh22nd .d-flex.justify-content-end {
+
+
+
+
+.buttonbox button {
+    background: #59d6e1;
+    width: 150px;
+    padding: 0;
+    border: 0px !important;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 0;
+}
+.bannerheaders.homebanner.homefinals .icon-row p {
+    text-align: left;
+}
+
+/* For Smaller Screens - Navbar Links */
+@media (max-width: 1400px) {
+    .myh22nd .d-flex.justify-content-end {
             height: 100% !important;
             align-items: center;
         }

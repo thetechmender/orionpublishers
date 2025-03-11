@@ -41,7 +41,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark transparentcss" id="navbar">
                 <div class="container">
                     <!-- Logo (Left) -->
-                    <a class="navbar-brand logo" href="#">Logo</a>
+                    <a class="navbar-brand logo" href="#"><img src="../assets/images/logo.webp" /></a>
 
                     <!-- Navbar Toggle Button (Mobile View) -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -492,17 +492,17 @@ Get 50% Off on Book Marketing Services
                 </div>
             </div>
 
-            <div class="testimonsials-slider owl-carousel owl-theme ">
+                       <div class="testimonsials-slider owl-carousel owl-theme ">
                 <div class="testimonialsboxs">
-                    <p class="mytesticontent">“It has been a pleasure working with Amazon Publishers and his team of talented writers and editors – I highly recommend them. Having collaborated together on over a dozen manuscripts since 2015, including the original Five Nights at Freddy’s book, I can attest to their responsiveness, dedication to excellence, and commitment to keeping their clients happy. The ability to work with multiple gifted writers concurrently has been especially valuable to me.”</p>
+                    <p class="mytesticontent">Orion Publishers helped me turn my first novel into a bestseller. Their strategic marketing approach increased my book’s visibility, leading to higher sales and a growing reader base.</p>
                     <div class="namestesti">
                         <div class="testinames">
                             <div class="testiimages">
                                 <img src="../assets/images/testimonials-image1.webp">
                             </div>
                             <div class="testicontents">
-                                <h3>Scott Cawthon</h3>
-                                <p>#1  New York <span>Times-bestselling author</span>, Over 1 million copies</p>
+                                <h3>Charlotte Benson</h3>
+                                <p>Fiction Author</p>
                             </div>
                         </div>
                         <div class="startesti">
@@ -512,15 +512,15 @@ Get 50% Off on Book Marketing Services
                 </div>
 
                 <div class="testimonialsboxs">
-                    <p class="mytesticontent">“It has been a pleasure working with Amazon Publishers and his team of talented writers and editors – I highly recommend them. Having collaborated together on over a dozen manuscripts since 2015, including the original Five Nights at Freddy’s book, I can attest to their responsiveness, dedication to excellence, and commitment to keeping their clients happy. The ability to work with multiple gifted writers concurrently has been especially valuable to me.”</p>
+                    <p class="mytesticontent">Thanks to Orion Publishers, my book reached the right audience. Their targeted campaigns boosted my credibility as an author and positioned my book as a must-read in my industry.</p>
                     <div class="namestesti">
                         <div class="testinames">
                             <div class="testiimages">
                                 <img src="../assets/images/testimonials-image1.webp">
                             </div>
                             <div class="testicontents">
-                                <h3>Scott Cawthon</h3>
-                                <p>#1  New York <span>Times-bestselling author</span>, Over 1 million copies</p>
+                                <h3>Nathan Cole</h3>
+                                <p>Business Author</p>
                             </div>
                         </div>
                         <div class="startesti">
@@ -530,15 +530,15 @@ Get 50% Off on Book Marketing Services
                 </div>
 
                 <div class="testimonialsboxs">
-                    <p class="mytesticontent">“It has been a pleasure working with Amazon Publishers and his team of talented writers and editors – I highly recommend them. Having collaborated together on over a dozen manuscripts since 2015, including the original Five Nights at Freddy’s book, I can attest to their responsiveness, dedication to excellence, and commitment to keeping their clients happy. The ability to work with multiple gifted writers concurrently has been especially valuable to me.”</p>
+                    <p class="mytesticontent">I was struggling to get my memoir noticed until I worked with Orion Publishers. Their marketing expertise ensured my story reached readers who truly connected with it.</p>
                     <div class="namestesti">
                         <div class="testinames">
                             <div class="testiimages">
                                 <img src="../assets/images/testimonials-image1.webp">
                             </div>
                             <div class="testicontents">
-                                <h3>Scott Cawthon</h3>
-                                <p>#1  New York <span>Times-bestselling author</span>, Over 1 million copies</p>
+                                <h3>Isabella Hart</h3>
+                                <p>Memoir Writer</p>
                             </div>
                         </div>
                         <div class="startesti">
@@ -546,6 +546,65 @@ Get 50% Off on Book Marketing Services
                         </div>
                     </div>
                 </div>
+
+
+                   <div class="testimonialsboxs">
+       <p class="mytesticontent">The team at Orion Publishers designed a tailored marketing plan that helped my book gain traction across multiple platforms. Their efforts significantly increased my book’s exposure and sales.</p>
+       <div class="namestesti">
+           <div class="testinames">
+               <div class="testiimages">
+                   <img src="../assets/images/testimonials-image1.webp">
+               </div>
+               <div class="testicontents">
+                   <h3>William Hayes</h3>
+                   <p>Self-Help Author</p>
+               </div>
+           </div>
+           <div class="startesti">
+               <img src="../assets/images/testi-starts.webp">
+           </div>
+       </div>
+   </div>
+
+
+                                <div class="testimonialsboxs">
+    <p class="mytesticontent">I had no idea how to promote my children’s book, but Orion Publishers handled everything. Their marketing strategies helped my book stand out and reach enthusiastic young readers</p>
+    <div class="namestesti">
+        <div class="testinames">
+            <div class="testiimages">
+                <img src="../assets/images/testimonials-image1.webp">
+            </div>
+            <div class="testicontents">
+                <h3>Amelia Carter</h3>
+                <p>Children’s Book Author</p>
+            </div>
+        </div>
+        <div class="startesti">
+            <img src="../assets/images/testi-starts.webp">
+        </div>
+    </div>
+</div>
+
+
+                                                <div class="testimonialsboxs">
+    <p class="mytesticontent">From social media campaigns to influencer outreach, Orion Publishers delivered outstanding marketing support. My book sales skyrocketed, and I now have a dedicated fan base eagerly awaiting my next release.</p>
+    <div class="namestesti">
+        <div class="testinames">
+            <div class="testiimages">
+                <img src="../assets/images/testimonials-image1.webp">
+            </div>
+            <div class="testicontents">
+                <h3>Daniel Morgan</h3>
+                <p> Thriller Novelist</p>
+            </div>
+        </div>
+        <div class="startesti">
+            <img src="../assets/images/testi-starts.webp">
+        </div>
+    </div>
+</div>
+
+
 
             </div>
 
@@ -556,11 +615,11 @@ Get 50% Off on Book Marketing Services
             <div class="lines"></div>
         </div>
 
-        <section>
+               <section>
             <div class="container">
                 <div class="row myh22nd">
                     <div class="col-lg-8">
-                        <h2>Why Choose <strong>Amazon Publishers</strong></h2>
+                        <h2>Why Choose Orion Publishers for  <strong>Book Marketing?</strong></h2>
                     </div>
                     <div class="col-lg-4">
                         <div class="d-flex justify-content-end">
@@ -574,21 +633,21 @@ Get 50% Off on Book Marketing Services
                 <div class="row mt-4 customtops">
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>#1 Bestselling Writers and Editors </h3>
-                            <p>"Our team of New York Times-bestselling ghostwriters and Big-5 acquisitions editors offers you the highest caliber of talent and professionalism."</p>
+                            <h3>Strategic Marketing Expertise </h3>
+                            <p>Our team of skilled marketers crafts tailored campaigns to enhance your book’s visibility, ensuring it reaches the right audience while strengthening your brand as an author.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Trust Former Publishing Executives </h3>
-                            <p>"Our Senior and Executive Editors are former acquisitions editors and editorial directors from the Big-5 publishing houses who have built and launched multiple #1 New York Times bestsellers."</p>
+                            <h3>End-to-End Promotional Support</h3>
+                            <p>From pre-launch buzz to sustained post-release marketing, we guide authors through every step, offering expert assistance in social media promotion, paid advertising, and reader engagement.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Publishing Navigation</h3>
+                            <h3>Customized Marketing Strategies</h3>
                             <p>
-                                "We work directly with the industry’s top literary agents, publishers, hybrid presses, publicists, and book-marketing professionals — we’ll build and execute the optimal publishing strategy to achieve your goals."
+                                We develop marketing plans based on your book’s genre, target readers, and publishing goals, ensuring maximum exposure and engagement through personalized promotional tactics.
                             </p>
                         </div>
                     </div>
@@ -597,21 +656,21 @@ Get 50% Off on Book Marketing Services
                 <div class="row mt-4 customtops">
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Proven Process         </h3>
-                            <p>"Work with a team that has refined the art of successful book writing and editing, leading to the publication of numerous New York Times and national bestsellers."</p>
+                            <h3>Timely & Effective Campaign Execution   </h3>
+                            <p>We implement marketing strategies efficiently, ensuring timely promotions that generate buzz, increase book sales, and establish long-term readership without compromising on quality.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Personalized Approach</h3>
-                            <p>"Every author and every book is unique. We customize our book editing and writing services to achieve your publishing goals."</p>
+                            <h3>Industry Knowledge & Insights</h3>
+                            <p>With years of experience in book marketing, our team provides data-driven strategies, platform-specific expertise, and industry insights to position your book for lasting success.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Low Time Commitment</h3>
+                            <h3>Author-Focused Marketing Services</h3>
                             <p>
-                                "Our comprehensive service allows you to be as involved or hands-off as you wish."
+                                We work closely with authors, offering transparent communication, continuous support, and innovative promotional solutions, making the book marketing process seamless, effective, and rewarding.
                             </p>
                         </div>
                     </div>
@@ -626,34 +685,34 @@ Get 50% Off on Book Marketing Services
 
 
 
-      <div class="sectionctas">
-          <div class="container">
-              <div class="rows align-items-center">
-                  <div class="boxonecta">
-                      <h2>Is your book idea the next bestseller?</h2>
+        <div class="sectionctas">
+            <div class="container">
+                <div class="rows align-items-center">
+                    <div class="boxonecta">
+                        <h2>Is your book idea the next bestseller?</h2>
 
-                   <p>
-   There’s only one way to find out.
-</p>
-<p>
-Get in touch with us and take the first step toward becoming a published author.
-</p>
-<p>
-  At Orion Publishers, we provide a seamless, professional book-writing experience with top-tier expertise, quality, and dedication.
-</p>
+                     <p>
+     There’s only one way to find out.
+  </p>
+  <p>
+  Get in touch with us and take the first step toward becoming a published author.
+  </p>
+  <p>
+    At Orion Publishers, we provide a seamless, professional book-writing experience with top-tier expertise, quality, and dedication.
+  </p>
 
-                      <div class="buttoncustom mt-5">
-                          <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">SCHEDULE A CONSULTATION <span>
-                              <img src="../assets/images/buttons-right.webp"></span>
-                          </a>
-                      </div>
-                  </div>
-                  <div class="boxtwocta">
-                      <img src="../assets/images/cta_thumb.webp">
-                  </div>
-              </div>
-          </div>
-      </div>
+                        <div class="buttoncustom mt-5">
+                            <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">SCHEDULE A CONSULTATION <span>
+                                <img src="../assets/images/buttons-right.webp"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="boxtwocta">
+                        <img src="../assets/images/cta_thumb.webp">
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
       <div class="Contactbox custompaddings">

@@ -101,32 +101,6 @@
     <Content Include="assets\images\flag.png" />
     <Content Include="assets\images\Group 125.png" />
     <Content Include="assets\images\logo-image.png" />
-    <Content Include="assets\images\New folder\book01.png" />
-    <Content Include="assets\images\New folder\book02.png" />
-    <Content Include="assets\images\New folder\book03.png" />
-    <Content Include="assets\images\New folder\book04.png" />
-    <Content Include="assets\images\New folder\book05.png" />
-    <Content Include="assets\images\New folder\book06.png" />
-    <Content Include="assets\images\New folder\book07.png" />
-    <Content Include="assets\images\New folder\book08.png" />
-    <Content Include="assets\images\New folder\book09.png" />
-    <Content Include="assets\images\New folder\book10.png" />
-    <Content Include="assets\images\New folder\book11.png" />
-    <Content Include="assets\images\New folder\buttons-right.png" />
-    <Content Include="assets\images\New folder\Ellipse 6.png" />
-    <Content Include="assets\images\New folder\Group 521.png" />
-    <Content Include="assets\images\New folder\pexels-andrew-dick-697509.png" />
-    <Content Include="assets\images\New folder\printer-3d-style-trending-color-palette-with-generative-ai.png" />
-    <Content Include="assets\images\New folder\servicebox1.png" />
-    <Content Include="assets\images\New folder\servicebox2.png" />
-    <Content Include="assets\images\New folder\servicebox3.png" />
-    <Content Include="assets\images\New folder\servicebox4.png" />
-    <Content Include="assets\images\New folder\servicebox5.png" />
-    <Content Include="assets\images\New folder\servicebox6.png" />
-    <Content Include="assets\images\New folder\servicebox7.png" />
-    <Content Include="assets\images\New folder\servicebox8.png" />
-    <Content Include="assets\images\New folder\test_thumb.png" />
-    <Content Include="assets\images\New folder\whitearrowbtn.png" />
     <Content Include="assets\images\testi-starts.png" />
     <Content Include="assets\images\testimonials-image1.png" />
     <Content Include="assets\images\test_thumb.png" />
@@ -170,6 +144,7 @@
     <Content Include="lp\book-editing-service.aspx" />
     <Content Include="lp\book-design-service.aspx" />
     <Content Include="lp\audiobook-service.aspx" />
+    <Content Include="privacy-policy.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -217,19 +192,6 @@
     <Content Include="assets\images\header-background.webp" />
     <Content Include="assets\images\logo-banner-after.webp" />
     <Content Include="assets\images\messages.webp" />
-    <Content Include="assets\images\New folder\book01.webp" />
-    <Content Include="assets\images\New folder\book02.webp" />
-    <Content Include="assets\images\New folder\book03.webp" />
-    <Content Include="assets\images\New folder\book04.webp" />
-    <Content Include="assets\images\New folder\book05.webp" />
-    <Content Include="assets\images\New folder\book06.webp" />
-    <Content Include="assets\images\New folder\book07.webp" />
-    <Content Include="assets\images\New folder\book08.webp" />
-    <Content Include="assets\images\New folder\book09.webp" />
-    <Content Include="assets\images\New folder\book10.webp" />
-    <Content Include="assets\images\New folder\book11.webp" />
-    <Content Include="assets\images\New folder\contact-image.webp" />
-    <Content Include="assets\images\New folder\whitearrowbtn.webp" />
     <Content Include="assets\images\servicebox1.webp" />
     <Content Include="assets\images\servicebox2.webp" />
     <Content Include="assets\images\servicebox3.webp" />
@@ -306,6 +268,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="terms-and-conditions.aspx" />
     <Content Include="thankyou.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -439,6 +402,13 @@
     <Compile Include="lp\audiobook-service.aspx.designer.cs">
       <DependentUpon>audiobook-service.aspx</DependentUpon>
     </Compile>
+    <Compile Include="privacy-policy.aspx.cs">
+      <DependentUpon>privacy-policy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privacy-policy.aspx.designer.cs">
+      <DependentUpon>privacy-policy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -453,6 +423,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="terms-and-conditions.aspx.cs">
+      <DependentUpon>terms-and-conditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="terms-and-conditions.aspx.designer.cs">
+      <DependentUpon>terms-and-conditions.aspx</DependentUpon>
     </Compile>
     <Compile Include="thankyou.aspx.cs">
       <DependentUpon>thankyou.aspx</DependentUpon>
@@ -471,6 +448,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="assets\images\New folder\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

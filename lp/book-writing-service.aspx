@@ -40,7 +40,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark transparentcss" id="navbar">
                 <div class="container">
                     <!-- Logo (Left) -->
-                    <a class="navbar-brand logo" href="#">Logo</a>
+                    <a class="navbar-brand logo" href="#"><img src="../assets/images/logo.webp" /></a>
 
                     <!-- Navbar Toggle Button (Mobile View) -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

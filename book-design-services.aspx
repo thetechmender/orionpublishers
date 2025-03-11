@@ -13,15 +13,15 @@
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-6 col-md-12">
                             <div class="content-header">
-                                <span1>Bring Your Ideas to Life with</span1>
-                                <h1>Are You Ready To <span class="sitecolor">Self-Publish</span> Your Book On Amazon?
+                                <span1>Exceptional Book Design for Maximum Impact</span1>
+                                <h1>Enhance your <span class="sitecolor">book’s design</span>
                                 </h1>
                                 <div class="custombullit ptpbnew">
                                     <ul>
-                                        <li>Engaging Animations to Drive Conversions</li>
-                                        <li>Most Affordable Pricing &amp; Fastest Delivery </li>
-                                        <li>Unlimited Revisions Until You’re Satisfied</li>
-
+                                        <li>Captivating covers that draw attention.</li>
+                                        <li>Seamless interior formatting for readability. </li>
+                                        <li>	eBook and print designs optimized.</li>
+                                         <li>	Unique illustrations to elevate storytelling.</li>
                                     </ul>
                                 </div>
                                 <div class="icon-row d-flex" style="align-items: center; justify-content: start;">
@@ -71,11 +71,11 @@
                                             <p>Limited Time Offer</p>
                                         </div>
                                         <p class="stylepara">
-                                            Get 50% Off on 2D Animations
+                                           Get 50% Off on Book Design Services
 
 
                                         </p>
-                                        <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Coupons Left</p>
+                                        <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Spots Available</p>
                                     </div>
                                     <form id="form2" method="post" action="/email">
                                         <div class="mb-3 ">
@@ -136,8 +136,8 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="contentfirsts">
-                            <h2>Reliable Article Publishing Quality <span class="sitecolor">Article Writing Services</span></h2>
-                            <p>Let's have a look at the content lifecycle and see how our article-writing services may help you at each stage. When you use our Article Writing services, you will receive original and well-research content in the form of articles. We create customized articles according to the needs and requirements of our clients. Our team of experienced editors, writers, and researchers takes your ideas and transforms them into persuasive and SEO-friendly articles. With a keen eye for detail and a commitment to meeting deadlines.</p>
+                            <h2>Professional  <span class="sitecolor">Book Design </span>Services</h2>
+                            <p>Orion Publishers provides expert book design services to give your manuscript a visually appealing and professionally formatted look. Whether its fiction, non-fiction, memoirs, or business books, our skilled designers create stunning layouts and captivating covers that enhance readability and market appeal. We handle everything from typography and formatting to cover design and interior layout, ensuring your book meets industry standards. Perfect for authors, entrepreneurs, and professionals, our service ensures your book stands out and leaves a lasting impression on readers.</p>
 
                             <div class="btndflex whitepe mt-4">
 
@@ -162,31 +162,29 @@
                 </div>
             </div>
         </div>
-
-        <section class="sectiondarks custompaddings">
+                <section class="sectiondarks custompaddings">
             <div class="container">
                 <div class="headingsmall text-center pb-5 mb-0">
-                    <h2 class="text-white">Bestselling first-time authors launched by <i class="sitecolor"><strong>Amazon Publishers</strong></i></h2>
+                    <h2 class="text-white"> Bestselling first-time authors published by  <i class="sitecolor"><strong>Orion Publishers</strong></i>  </h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-12">
                         <div class="counters">
-                            <span class="count colax sitecolor" data-number="200">200+ </span>
-                            <span class="pluss sitecolor">+</span>
+                            <span class="count colax sitecolor" data-number="100">100% </span>
+                            <span class="pluss sitecolor">%</span>
                             <div class="textbottom">
-                                <p>New York Times Bestsellers</p>
+                                <p>Original <br />Content </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-12">
                         <div class="counters">
-                            <span class="count colax sitecolor" data-number="600">600+ </span>
+                            <span class="count colax sitecolor" data-number="80">80+ </span>
                             <span class="pluss sitecolor">+</span>
                             <div class="textbottom">
                                 <p>
-                                    National
-                        Bestsellers
+                       Expert Writers <br /> & Editors
                                 </p>
                             </div>
                         </div>
@@ -194,20 +192,20 @@
 
                     <div class="col-lg-3 col-md-12">
                         <div class="counters">
-                            <span class="count colax sitecolor" data-number="500">500+ </span>
-                            <span class="pluss sitecolor">+</span>
+                            <span class="count colax sitecolor" data-number="98">98% </span>
+                            <span class="pluss sitecolor">%</span>
                             <div class="textbottom">
-                                <p>New Authors Launched</p>
+                                <p>On-Time <br />Delivery</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-12">
                         <div class="counters">
-                            <span class="count colax sitecolor" data-number="200">10M </span>
-                            <span class="pluss sitecolor">M</span>
+                            <span class="count colax sitecolor" data-number="20">20+ </span>
+                            <span class="pluss sitecolor">+</span>
                             <div class="textbottom">
-                                <p>New York Times Bestsellers</p>
+                                <p>Genres <br />Covered </p>
                             </div>
                         </div>
                     </div>
@@ -219,37 +217,37 @@
             <div class="booksslider mt-5 mb-5">
                 <div class="owl-carousel owl-theme sliderbooks">
                     <div class="boximage">
-                        <img src="assets/images/book01.webp">
+                        <img src="../assets/images/book01.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book02.webp">
+                        <img src="../assets/images/book02.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book03.webp">
+                        <img src="../assets/images/book03.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book04.webp">
+                        <img src="../assets/images/book04.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book05.webp">
+                        <img src="../assets/images/book05.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book06.webp">
+                        <img src="../assets/images/book06.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book07.webp">
+                        <img src="../assets/images/book07.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book08.webp">
+                        <img src="../assets/images/book08.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book09.webp">
+                        <img src="../assets/images/book09.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book10.webp">
+                        <img src="../assets/images/book10.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book11.webp">
+                        <img src="../assets/images/book11.webp">
                     </div>
 
                 </div>
@@ -259,7 +257,7 @@
                 <div class="row d-flex justify-content-between">
                     <div class="col-lg-5 col-md-12">
                         <div class="headingafterslider">
-                            <h2>Are you ready to become a published author?</h2>
+                            <h2>Are you ready to become a published author? </h2>
                             <div class="buttonbox">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Schedule Call With US!
                                 </a>
@@ -268,11 +266,13 @@
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <div class="ourclasspara">
-                            <p>Our team of <strong class="sitecolor"><i>#1 New York Times-bestselling</i></strong> editors, ghostwriters, and <strong class="sitecolor"><i>publishing executives</i></strong> collaborates with authors to develop powerful books and navigate the entire publishing journey.</p>
+                            <p>
+                                Our team of bestselling editors, expert ghostwriters, and publishing professionals collaborates with authors to create impactful books and guide them through the entire publishing process at <strong class="sitecolor"><i>Orion Publishers</i></strong>.
+</p>
 
                             <div class="btnimageicons">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">
-                                    <img src="assets/images/messages.webp">
+                                    <img src="../assets/images/messages.webp">
                                     Send Message to Us</a>
                             </div>
                         </div>
@@ -286,18 +286,16 @@
             <div class="container">
                 <div class="row mb-5">
                     <div class="headingservices">
-                        <span>OUR COMPREHENSIVE</span>
-                        <h2>SERVICES FOR AUTHORS</h2>
+                        <span>Comprehensive </span>
+                        <h2>Book Design Services</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/story-planing.webp" />
-                            <h3>STORY PLANNING
-                                <br />
-                                & OUTLINE CREATION</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <h3>Cover <br />Design </h3>
+                            <p> Creating a striking cover that reflects your book’s genre, tone, and target audience while making a lasting first impression.</p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
@@ -309,11 +307,8 @@
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/customwriting-services.webp" />
-                            <h3>CUSTOM WRITING
-                                <br />
-                                &
-MANUSCRIPT DEVELOPMENT</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <h3>Specialized <br /> Design </h3>
+                            <p>Tailoring unique design elements that fit your specific vision and theme, adding personality to every page.</p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
@@ -324,10 +319,8 @@ MANUSCRIPT DEVELOPMENT</h3>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/editing-proofing.webp" />
-                            <h3>EDITING &
-                                <br />
-                                PROOFREADING</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <h3>Graphical <br /> Book Designs </h3>
+                            <p>Implementing custom illustrations, infographics, and visual elements to enrich your narrative and enhance reader engagement.</p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
@@ -338,11 +331,8 @@ MANUSCRIPT DEVELOPMENT</h3>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/revision.webp" />
-                            <h3>REVISIONS &
-                                <br />
-                                FEEDBACK
-INCORPORATION</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <h3>3D and Visual <br /> Representations </h3>
+                            <p>Designing compelling 3D visuals and representations that take your book’s concept to the next level, perfect for both print and digital formats.</p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
@@ -355,8 +345,8 @@ INCORPORATION</h3>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/cover-design.webp" />
-                            <h3>COVER DESIGN</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <h3>Typography <br /> and Font Selection </h3>
+                            <p>Choosing fonts that align with your book’s tone and ensuring readability across various platforms.</p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
@@ -367,8 +357,8 @@ INCORPORATION</h3>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/book-video-trailer.webp" />
-                            <h3>BOOK VIDEO TRAILER</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <h3>Illustrations <br />and Artwork </h3>
+                            <p>Adding personalized illustrations and artwork that complement the story and bring additional depth to the reader's experience.</p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
@@ -379,8 +369,8 @@ INCORPORATION</h3>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/book-marketing.webp" />
-                            <h3>BOOK MARKETING</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <h3>Custom Layouts <br /> for E-books </h3>
+                            <p>Designing e-book layouts that are visually appealing and user-friendly across all devices.</p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
@@ -392,8 +382,8 @@ INCORPORATION</h3>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
                             <img src="assets/images/book-publishing.webp" />
-                            <h3>BOOK PUBLISHING</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <h3>Brand <br /> Consistency </h3>
+                            <p>Ensuring your book’s design is in sync with your overall author brand for a professional, cohesive presentation.</p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
@@ -405,7 +395,7 @@ INCORPORATION</h3>
             </div>
             <div class="container">
                 <div class="mybtn-custom">
-                    <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">CHOOSE THE BEST GHOSTWRITERS – LET US WRITE YOUR SUCCESS!
+                    <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Professional Book Design – Elevate Your Manuscript Visually
                     </a>
                 </div>
             </div>
@@ -414,21 +404,21 @@ INCORPORATION</h3>
         <section class="testimonials">
             <div class="container">
                 <div class="myh2test">
-                    <h2>What Our Best Seller Say's About Amazon Publishers</h2>
+                    <h2>Our Testimonials</h2>
                 </div>
             </div>
 
             <div class="testimonsials-slider owl-carousel owl-theme ">
                 <div class="testimonialsboxs">
-                    <p class="mytesticontent">“It has been a pleasure working with Amazon Publishers and his team of talented writers and editors – I highly recommend them. Having collaborated together on over a dozen manuscripts since 2015, including the original Five Nights at Freddy’s book, I can attest to their responsiveness, dedication to excellence, and commitment to keeping their clients happy. The ability to work with multiple gifted writers concurrently has been especially valuable to me.”</p>
+                    <p class="mytesticontent">“Orion Publishers brought my vision to life with a breathtaking cover design! The interior layout was equally stunning, and I’m so proud of how my book looks. Their attention to detail made all the difference!”</p>
                     <div class="namestesti">
                         <div class="testinames">
                             <div class="testiimages">
                                 <img src="assets/images/testimonials-image1.webp">
                             </div>
                             <div class="testicontents">
-                                <h3>Scott Cawthon</h3>
-                                <p>#1  New York <span>Times-bestselling author</span>, Over 1 million copies</p>
+                                <h3>Sarah Williams</h3>
+                            
                             </div>
                         </div>
                         <div class="startesti">
@@ -438,15 +428,15 @@ INCORPORATION</h3>
                 </div>
 
                 <div class="testimonialsboxs">
-                    <p class="mytesticontent">“It has been a pleasure working with Amazon Publishers and his team of talented writers and editors – I highly recommend them. Having collaborated together on over a dozen manuscripts since 2015, including the original Five Nights at Freddy’s book, I can attest to their responsiveness, dedication to excellence, and commitment to keeping their clients happy. The ability to work with multiple gifted writers concurrently has been especially valuable to me.”</p>
+                    <p class="mytesticontent">“I never imagined my book would look this good! The team at Orion Publishers made sure the design aligned perfectly with my genre and message. The entire process was seamless, and the final product exceeded my expectations!”</p>
                     <div class="namestesti">
                         <div class="testinames">
                             <div class="testiimages">
                                 <img src="assets/images/testimonials-image1.webp">
                             </div>
                             <div class="testicontents">
-                                <h3>Scott Cawthon</h3>
-                                <p>#1  New York <span>Times-bestselling author</span>, Over 1 million copies</p>
+                                <h3>James Thompson</h3>
+                              
                             </div>
                         </div>
                         <div class="startesti">
@@ -456,15 +446,15 @@ INCORPORATION</h3>
                 </div>
 
                 <div class="testimonialsboxs">
-                    <p class="mytesticontent">“It has been a pleasure working with Amazon Publishers and his team of talented writers and editors – I highly recommend them. Having collaborated together on over a dozen manuscripts since 2015, including the original Five Nights at Freddy’s book, I can attest to their responsiveness, dedication to excellence, and commitment to keeping their clients happy. The ability to work with multiple gifted writers concurrently has been especially valuable to me.”</p>
+                    <p class="mytesticontent">“The cover design I got from Orion Publishers was a game-changer. It not only stands out on the shelves but also captures the essence of my story. I’m already getting so many compliments!”</p>
                     <div class="namestesti">
                         <div class="testinames">
                             <div class="testiimages">
                                 <img src="assets/images/testimonials-image1.webp">
                             </div>
                             <div class="testicontents">
-                                <h3>Scott Cawthon</h3>
-                                <p>#1  New York <span>Times-bestselling author</span>, Over 1 million copies</p>
+                                <h3>Olivia King</h3>
+                             
                             </div>
                         </div>
                         <div class="startesti">
@@ -472,6 +462,65 @@ INCORPORATION</h3>
                         </div>
                     </div>
                 </div>
+
+
+
+
+                         <div class="testimonialsboxs">
+             <p class="mytesticontent">“From the cover to the interior formatting, Orion Publishers nailed it! I was so impressed with their creativity and professionalism. My book is now a true work of art!”</p>
+             <div class="namestesti">
+                 <div class="testinames">
+                     <div class="testiimages">
+                         <img src="assets/images/testimonials-image1.webp">
+                     </div>
+                     <div class="testicontents">
+                         <h3>Robert Lewis</h3>
+                      
+                     </div>
+                 </div>
+                 <div class="startesti">
+                     <img src="assets/images/testi-starts.webp">
+                 </div>
+             </div>
+         </div>
+
+
+                                <div class="testimonialsboxs">
+    <p class="mytesticontent">“Working with Orion Publishers was a dream! They created a beautiful design that was exactly what I envisioned. The interior layout made my content shine and really engaged my readers.”</p>
+    <div class="namestesti">
+        <div class="testinames">
+            <div class="testiimages">
+                <img src="assets/images/testimonials-image1.webp">
+            </div>
+            <div class="testicontents">
+                <h3>Emma Johnson</h3>
+             
+            </div>
+        </div>
+        <div class="startesti">
+            <img src="assets/images/testi-starts.webp">
+        </div>
+    </div>
+</div>
+
+
+                                                <div class="testimonialsboxs">
+    <p class="mytesticontent">“The design team at Orion Publishers helped me elevate my book in ways I didn’t think possible. The custom cover and professional formatting made my book feel like it truly belonged in the market.”</p>
+    <div class="namestesti">
+        <div class="testinames">
+            <div class="testiimages">
+                <img src="assets/images/testimonials-image1.webp">
+            </div>
+            <div class="testicontents">
+                <h3>Michael Patel</h3>
+             
+            </div>
+        </div>
+        <div class="startesti">
+            <img src="assets/images/testi-starts.webp">
+        </div>
+    </div>
+</div>
 
             </div>
 
@@ -486,7 +535,7 @@ INCORPORATION</h3>
             <div class="container">
                 <div class="row myh22nd">
                     <div class="col-lg-8">
-                        <h2>Why Choose <strong>Amazon Publishers</strong></h2>
+                        <h2>Why Choose  <strong>Orion Publishers</strong></h2>
                     </div>
                     <div class="col-lg-4">
                         <div class="d-flex justify-content-end">
@@ -500,21 +549,21 @@ INCORPORATION</h3>
                 <div class="row mt-4 customtops">
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>#1 Bestselling Writers and Editors </h3>
-                            <p>"Our team of New York Times-bestselling ghostwriters and Big-5 acquisitions editors offers you the highest caliber of talent and professionalism."</p>
+                            <h3>Expert Book Design & Formatting </h3>
+                            <p>Our skilled design team ensures your book has visually captivating layouts and professional designs that enhance readability and appeal across all genres and formats.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Trust Former Publishing Executives </h3>
-                            <p>"Our Senior and Executive Editors are former acquisitions editors and editorial directors from the Big-5 publishing houses who have built and launched multiple #1 New York Times bestsellers."</p>
+                            <h3>Comprehensive Design Support </h3>
+                            <p>From the cover to the interior pages, we guide authors through every design stage, offering expert assistance in cover design, formatting, and creating a cohesive visual identity for your book.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Publishing Navigation</h3>
+                            <h3>Tailored Design Solutions</h3>
                             <p>
-                                "We work directly with the industry’s top literary agents, publishers, hybrid presses, publicists, and book-marketing professionals — we’ll build and execute the optimal publishing strategy to achieve your goals."
+                              We customize each design to match your book’s genre, theme, and audience, ensuring a unique, engaging visual representation that perfectly complements your story.
                             </p>
                         </div>
                     </div>
@@ -523,21 +572,21 @@ INCORPORATION</h3>
                 <div class="row mt-4 customtops">
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Proven Process         </h3>
-                            <p>"Work with a team that has refined the art of successful book writing and editing, leading to the publication of numerous New York Times and national bestsellers."</p>
+                            <h3>On-Time Project Delivery    </h3>
+                            <p>We understand the importance of deadlines and deliver polished designs on schedule, ensuring your book’s visual elements are finalized promptly without sacrificing quality.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Personalized Approach</h3>
-                            <p>"Every author and every book is unique. We customize our book editing and writing services to achieve your publishing goals."</p>
+                            <h3>Extensive Design Expertise</h3>
+                            <p>With years of experience in book design, our team brings valuable knowledge, creativity, and attention to detail to deliver exceptional design work that resonates with readers.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Low Time Commitment</h3>
+                            <h3>Author-Centric Services</h3>
                             <p>
-                                "Our comprehensive service allows you to be as involved or hands-off as you wish."
+                               We prioritize your vision and work closely with you to ensure the design reflects your style and preferences. Our transparent communication and personalized service make the design process smooth and enjoyable.
                             </p>
                         </div>
                     </div>
@@ -558,23 +607,23 @@ INCORPORATION</h3>
                         <h2>Is your book idea the next bestseller?</h2>
 
                         <p>
-                            There is only one way to find out…
+                            There’s only one way to find out.
                         </p>
                         <p>
-                            Give us a call to begin your journey to becoming a published author.
+                            Get in touch with us and take the first step toward becoming a published author.
                         </p>
                         <p>
-                            Enjoy our white-glove approach to the book-writing process and experience the best in quality, talent, and professionalism.
+                            At Orion Publishers, we provide a seamless, professional book-writing experience with top-tier expertise, quality, and dedication.
                         </p>
 
                         <div class="buttoncustom mt-5">
                             <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">SCHEDULE A CONSULTATION <span>
-                                <img src="assets/images/buttons-right.webp"></span>
+                                <img src="../assets/images/buttons-right.webp"></span>
                             </a>
                         </div>
                     </div>
                     <div class="boxtwocta">
-                        <img src="assets/images/cta_thumb.webp">
+                        <img src="../assets/images/cta_thumb.webp">
                     </div>
                 </div>
             </div>
@@ -585,7 +634,7 @@ INCORPORATION</h3>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <p class="positionperas">Reach out to us from our contact form and we will get back to you shortly.</p>
+                        <p class="positionperas">Fill out our contact form, and we’ll get back to you shortly.</p>
                         <h2>Contact <span>us</span>.</h2>
 
                         <div class="buttoncustom mt-5">
@@ -608,7 +657,7 @@ INCORPORATION</h3>
                 <div class="row">
                     <div class="col-lg-6">
                         <h3>Ready to Share Your Story?</h3>
-                        <p>Amazon Publishers helped numerous authors transform their manuscripts into published works that captivate readers. Whether you’re a seasoned author seeking new avenues or an emerging writer with a fresh perspective, our Amazon Self-Publishing service welcomes you to join the ranks of successful authors who have embraced this empowering pathway to authorship.</p>
+                        <p>Orion Publishers has helped countless authors turn their manuscripts into published books that engage and inspire readers. Whether you're an experienced writer exploring new opportunities or a first-time author with a unique vision, our expert book writing and publishing services provide the guidance and support you need to bring your story to life. Join the many successful authors who have trusted Orion Publishers to make their publishing goals a reality.</p>
                     </div>
                     <div class="col-lg-6">
                         <div class="formbottom">

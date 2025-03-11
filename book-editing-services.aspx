@@ -13,15 +13,16 @@
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-6 col-md-12">
                             <div class="content-header">
-                                <span1>Bring Your Ideas to Life with</span1>
-                                <h1>Are You Ready To <span class="sitecolor">Self-Publish</span> Your Book On Amazon?
+                                <span1>Elevate Your Manuscript with Precision Editing</span1>
+                                <h1>Professional <span class="sitecolor">Book Editing </span>for Clarity and Excellence
+                               
                                 </h1>
                                 <div class="custombullit ptpbnew">
                                     <ul>
-                                        <li>Engaging Animations to Drive Conversions</li>
-                                        <li>Most Affordable Pricing &amp; Fastest Delivery </li>
-                                        <li>Unlimited Revisions Until You’re Satisfied</li>
-
+                                        <li>Flawless Grammar and Precision</li>
+                                        <li>Enhanced Readability & Coherent Structure</li>
+                                        <li>Experienced and Skilled Editors</li>
+                                        <li>100% Satisfaction Guaranteed</li>
                                     </ul>
                                 </div>
                                 <div class="icon-row d-flex" style="align-items: center; justify-content: start;">
@@ -71,11 +72,10 @@
                                             <p>Limited Time Offer</p>
                                         </div>
                                         <p class="stylepara">
-                                            Get 50% Off on 2D Animations
-
+                                           Get 50% Off on Professional Book Editing
 
                                         </p>
-                                        <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Coupons Left</p>
+                                        <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Spots Available</p>
                                     </div>
                                     <form id="form3" method="post" action="/email">
                                         <div class="mb-3 ">
@@ -100,9 +100,7 @@
                                         <div class="d-flex justify-content-center needhelps">
 
                                             <div class="submit">
-                                                <p>
-                                                    <span id="error-message3" style="color: Red;"></span>
-                                                </p>
+                                               
                                                 <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
                                                 <button type="submit" class="btn btn-primary">Submit</button>
                                             </div>
@@ -137,22 +135,24 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="contentfirsts">
-                            <h2>Reliable Article Publishing Quality <span class="sitecolor">Article Writing Services</span></h2>
-                            <p>Let's have a look at the content lifecycle and see how our article-writing services may help you at each stage. When you use our Article Writing services, you will receive original and well-research content in the form of articles. We create customized articles according to the needs and requirements of our clients. Our team of experienced editors, writers, and researchers takes your ideas and transforms them into persuasive and SEO-friendly articles. With a keen eye for detail and a commitment to meeting deadlines.</p>
+                            <h2>
+                            
+                                   Professional Editing to Enhance Your  <span class="sitecolor">Manuscript</span></h2>
+                            <p>Orion Publishers offers meticulous book editing services to elevate the quality of your manuscript. Whether you’ve written fiction, non-fiction, memoirs, or business books, our experienced editors refine your work for clarity, coherence, and readability while preserving your distinct style. We cover everything from structural editing and content enhancement to grammar correction and final proofreading. Designed for authors, entrepreneurs, and professionals, our editing service ensures your book meets professional publishing standards and keeps readers engaged from start to finish.</p>
 
                             <div class="btndflex whitepe mt-4">
 
-                                <div class="header-btn">
-                                    <a class="button open-chat-btnn" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Get a Free Quote
-                                    </a>
-                                </div>
-                                <div class="btnstyles">
-                                    <div class="btnphone ">
-                                        <a class="phonebtns" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Request a Callback
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+         <div class="header-btn">
+             <a class="button open-chat-btnn" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Discuss Project
+             </a>
+         </div>
+         <div class="btnstyles">
+             <div class="btnphone ">
+                 <a class="phonebtns" href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Get In Touch
+                 </a>
+             </div>
+         </div>
+     </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -163,31 +163,29 @@
                 </div>
             </div>
         </div>
-
         <section class="sectiondarks custompaddings">
             <div class="container">
                 <div class="headingsmall text-center pb-5 mb-0">
-                    <h2 class="text-white">Bestselling first-time authors launched by <i class="sitecolor"><strong>Amazon Publishers</strong></i></h2>
+                    <h2 class="text-white"> Bestselling first-time authors published by  <i class="sitecolor"><strong>Orion Publishers</strong></i>  </h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-12">
                         <div class="counters">
-                            <span class="count colax sitecolor" data-number="200">200+ </span>
-                            <span class="pluss sitecolor">+</span>
+                            <span class="count colax sitecolor" data-number="100">100% </span>
+                            <span class="pluss sitecolor">%</span>
                             <div class="textbottom">
-                                <p>New York Times Bestsellers</p>
+                                <p>Original <br />Content </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-12">
                         <div class="counters">
-                            <span class="count colax sitecolor" data-number="600">600+ </span>
+                            <span class="count colax sitecolor" data-number="80">80+ </span>
                             <span class="pluss sitecolor">+</span>
                             <div class="textbottom">
                                 <p>
-                                    National
-                        Bestsellers
+                       Expert Writers <br /> & Editors
                                 </p>
                             </div>
                         </div>
@@ -195,20 +193,20 @@
 
                     <div class="col-lg-3 col-md-12">
                         <div class="counters">
-                            <span class="count colax sitecolor" data-number="500">500+ </span>
-                            <span class="pluss sitecolor">+</span>
+                            <span class="count colax sitecolor" data-number="98">98% </span>
+                            <span class="pluss sitecolor">%</span>
                             <div class="textbottom">
-                                <p>New Authors Launched</p>
+                                <p>On-Time <br />Delivery</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-12">
                         <div class="counters">
-                            <span class="count colax sitecolor" data-number="200">10M </span>
-                            <span class="pluss sitecolor">M</span>
+                            <span class="count colax sitecolor" data-number="20">20+ </span>
+                            <span class="pluss sitecolor">+</span>
                             <div class="textbottom">
-                                <p>New York Times Bestsellers</p>
+                                <p>Genres <br />Covered </p>
                             </div>
                         </div>
                     </div>
@@ -220,37 +218,37 @@
             <div class="booksslider mt-5 mb-5">
                 <div class="owl-carousel owl-theme sliderbooks">
                     <div class="boximage">
-                        <img src="assets/images/book01.webp">
+                        <img src="../assets/images/book01.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book02.webp">
+                        <img src="../assets/images/book02.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book03.webp">
+                        <img src="../assets/images/book03.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book04.webp">
+                        <img src="../assets/images/book04.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book05.webp">
+                        <img src="../assets/images/book05.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book06.webp">
+                        <img src="../assets/images/book06.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book07.webp">
+                        <img src="../assets/images/book07.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book08.webp">
+                        <img src="../assets/images/book08.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book09.webp">
+                        <img src="../assets/images/book09.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book10.webp">
+                        <img src="../assets/images/book10.webp">
                     </div>
                     <div class="boximage">
-                        <img src="assets/images/book11.webp">
+                        <img src="../assets/images/book11.webp">
                     </div>
 
                 </div>
@@ -260,7 +258,7 @@
                 <div class="row d-flex justify-content-between">
                     <div class="col-lg-5 col-md-12">
                         <div class="headingafterslider">
-                            <h2>Are you ready to become a published author?</h2>
+                            <h2>Are you ready to become a published author? </h2>
                             <div class="buttonbox">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Schedule Call With US!
                                 </a>
@@ -269,11 +267,13 @@
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <div class="ourclasspara">
-                            <p>Our team of <strong class="sitecolor"><i>#1 New York Times-bestselling</i></strong> editors, ghostwriters, and <strong class="sitecolor"><i>publishing executives</i></strong> collaborates with authors to develop powerful books and navigate the entire publishing journey.</p>
+                            <p>
+                                Our team of bestselling editors, expert ghostwriters, and publishing professionals collaborates with authors to create impactful books and guide them through the entire publishing process at <strong class="sitecolor"><i>Orion Publishers</i></strong>.
+</p>
 
                             <div class="btnimageicons">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">
-                                    <img src="assets/images/messages.webp">
+                                    <img src="../assets/images/messages.webp">
                                     Send Message to Us</a>
                             </div>
                         </div>
@@ -287,67 +287,57 @@
             <div class="container">
                 <div class="row mb-5">
                     <div class="headingservices">
-                        <span>OUR COMPREHENSIVE</span>
-                        <h2>SERVICES FOR AUTHORS</h2>
+                        <span>Complete Editing  </span>
+                        <h2>Solutions for Authors</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
-                            <img src="assets/images/story-planing.webp" />
-                            <h3>STORY PLANNING
-                                <br />
-                                & OUTLINE CREATION</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <img src="../assets/images/story-planing.webp" />
+                            <h3>Structural <br /> Editing & Flow </h3>
+                            <p>Strengthening narrative structure, coherence, and logical progression for a compelling read. </p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
-                                    <img src="assets/images/arrow.webp" class="arrowservices" /></a>
+                                    <img src="../assets/images/arrow.webp" class="arrowservices" /></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
-                            <img src="assets/images/customwriting-services.webp" />
-                            <h3>CUSTOM WRITING
-                                <br />
-                                &
-MANUSCRIPT DEVELOPMENT</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <img src="../assets/images/customwriting-services.webp" />
+                            <h3>Accuracy & <br /> Sensitivity Editing </h3>
+                            <p>Ensuring factual correctness, cultural awareness, and sensitivity for a responsible, accurate portrayal. </p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
-                                    <img src="assets/images/arrow.webp" class="arrowservices" /></a>
+                                    <img src="../assets/images/arrow.webp" class="arrowservices" /></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
-                            <img src="assets/images/editing-proofing.webp" />
-                            <h3>EDITING &
-                                <br />
-                                PROOFREADING</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <img src="../assets/images/editing-proofing.webp" />
+                            <h3>Formatting & <br /> Layout Editing </h3>
+                            <p>Refining the visual presentation for readability and professional appeal. </p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
-                                    <img src="assets/images/arrow.webp" class="arrowservices" /></a>
+                                    <img src="../assets/images/arrow.webp" class="arrowservices" /></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
-                            <img src="assets/images/revision.webp" />
-                            <h3>REVISIONS &
-                                <br />
-                                FEEDBACK
-INCORPORATION</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <img src="../assets/images/revision.webp" />
+                            <h3>Comprehensive <br />Editing Services </h3>
+                            <p>A thorough review covering content, grammar, style, and consistency to elevate your manuscript. </p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
-                                    <img src="assets/images/arrow.webp" class="arrowservices" /></a>
+                                    <img src="../assets/images/arrow.webp" class="arrowservices" /></a>
                             </div>
                         </div>
                     </div>
@@ -355,50 +345,50 @@ INCORPORATION</h3>
                 <div class="row mt-4">
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
-                            <img src="assets/images/cover-design.webp" />
-                            <h3>COVER DESIGN</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <img src="../assets/images/cover-design.webp" />
+                            <h3>Line Editing <br />& Clarity Enhancement </h3>
+                            <p>Refining sentence structure, flow, and word choice for a polished, engaging manuscript. </p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
-                                    <img src="assets/images/arrow.webp" class="arrowservices" /></a>
+                                    <img src="../assets/images/arrow.webp" class="arrowservices" /></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
-                            <img src="assets/images/book-video-trailer.webp" />
-                            <h3>BOOK VIDEO TRAILER</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <img src="../assets/images/book-video-trailer.webp" />
+                            <h3>Grammar & <br />Punctuation Correction </h3>
+                            <p>Identifying and correcting errors to ensure precision, consistency, and professional quality. </p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
-                                    <img src="assets/images/arrow.webp" class="arrowservices" /></a>
+                                    <img src="../assets/images/arrow.webp" class="arrowservices" /></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
-                            <img src="assets/images/book-marketing.webp" />
-                            <h3>BOOK MARKETING</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <img src="../assets/images/book-marketing.webp" />
+                            <h3>Fact-Checking <br />& Consistency </h3>
+                            <p>Verifying details, timelines, and references to maintain accuracy throughout the book. </p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
-                                    <img src="assets/images/arrow.webp" class="arrowservices" /></a>
+                                    <img src="../assets/images/arrow.webp" class="arrowservices" /></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-12">
                         <div class="imageneservice boxservicesone">
-                            <img src="assets/images/book-publishing.webp" />
-                            <h3>BOOK PUBLISHING</h3>
-                            <p>OUR PUBLISHING SERVICES GUIDE YOU THROUGH EVERY STEP, FROM FORMATTING TO DISTRIBUTION.</p>
+                            <img src="../assets/images/book-publishing.webp" />
+                            <h3>Final Proofreading <br /> & Error Elimination </h3>
+                            <p>Conducting a meticulous final review to catch any overlooked mistakes before publication.</p>
 
                             <div class="areobtns">
                                 <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">View More
-                                    <img src="assets/images/arrow.webp" class="arrowservices" /></a>
+                                    <img src="../assets/images/arrow.webp" class="arrowservices" /></a>
                             </div>
                         </div>
                     </div>
@@ -406,16 +396,15 @@ INCORPORATION</h3>
             </div>
             <div class="container">
                 <div class="mybtn-custom">
-                    <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">CHOOSE THE BEST GHOSTWRITERS – LET US WRITE YOUR SUCCESS!
+                    <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">Professional Book Editing – Refine Your Manuscript to Perfection
                     </a>
                 </div>
             </div>
         </section>
-
         <section class="testimonials">
             <div class="container">
                 <div class="myh2test">
-                    <h2>What Our Best Seller Say's About Amazon Publishers</h2>
+                    <h2>Client Testimonials</h2>
                 </div>
             </div>
 
@@ -487,7 +476,7 @@ INCORPORATION</h3>
             <div class="container">
                 <div class="row myh22nd">
                     <div class="col-lg-8">
-                        <h2>Why Choose <strong>Amazon Publishers</strong></h2>
+                        <h2>Why Choose Orion Publishers for  <strong>Book Editing?</strong></h2>
                     </div>
                     <div class="col-lg-4">
                         <div class="d-flex justify-content-end">
@@ -501,21 +490,21 @@ INCORPORATION</h3>
                 <div class="row mt-4 customtops">
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>#1 Bestselling Writers and Editors </h3>
-                            <p>"Our team of New York Times-bestselling ghostwriters and Big-5 acquisitions editors offers you the highest caliber of talent and professionalism."</p>
+                            <h3>Precision Editing & Refinement </h3>
+                            <p>Our skilled editors enhance clarity, coherence, and readability while maintaining your unique writing style, ensuring your manuscript is polished and publication-ready.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Trust Former Publishing Executives </h3>
-                            <p>"Our Senior and Executive Editors are former acquisitions editors and editorial directors from the Big-5 publishing houses who have built and launched multiple #1 New York Times bestsellers."</p>
+                            <h3>Comprehensive Editing Support </h3>
+                            <p>From structural editing and content refinement to grammar correction and final proofreading, we meticulously review every aspect of your book to elevate its quality.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Publishing Navigation</h3>
+                            <h3>Tailored Editing Approach</h3>
                             <p>
-                                "We work directly with the industry’s top literary agents, publishers, hybrid presses, publicists, and book-marketing professionals — we’ll build and execute the optimal publishing strategy to achieve your goals."
+                                We respect your voice and vision, providing thoughtful revisions that strengthen your storytelling, improve engagement, and align with professional publishing standards.
                             </p>
                         </div>
                     </div>
@@ -524,21 +513,21 @@ INCORPORATION</h3>
                 <div class="row mt-4 customtops">
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Proven Process         </h3>
-                            <p>"Work with a team that has refined the art of successful book writing and editing, leading to the publication of numerous New York Times and national bestsellers."</p>
+                            <h3>Timely Completion      </h3>
+                            <p>We deliver high-quality edits within agreed deadlines, ensuring a seamless and efficient process while maintaining attention to detail and editorial excellence.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Personalized Approach</h3>
-                            <p>"Every author and every book is unique. We customize our book editing and writing services to achieve your publishing goals."</p>
+                            <h3>Industry Expertise & Guidance</h3>
+                            <p>Our experienced editors bring deep knowledge of the publishing world, offering valuable insights and strategies to help your book stand out in a competitive market.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="boxservicestext">
-                            <h3>Low Time Commitment</h3>
+                            <h3>Author-Focused Collaboration</h3>
                             <p>
-                                "Our comprehensive service allows you to be as involved or hands-off as you wish."
+                                We work closely with authors, providing transparent feedback, open communication, and dedicated support to make the editing process smooth and rewarding.
                             </p>
                         </div>
                     </div>
@@ -550,32 +539,30 @@ INCORPORATION</h3>
             <div class="lines"></div>
         </div>
 
-
-
-        <div class="sectionctas">
+                <div class="sectionctas">
             <div class="container">
                 <div class="rows align-items-center">
                     <div class="boxonecta">
                         <h2>Is your book idea the next bestseller?</h2>
 
                         <p>
-                            There is only one way to find out…
+                            There’s only one way to find out.
                         </p>
                         <p>
-                            Give us a call to begin your journey to becoming a published author.
+                            Get in touch with us and take the first step toward becoming a published author.
                         </p>
                         <p>
-                            Enjoy our white-glove approach to the book-writing process and experience the best in quality, talent, and professionalism.
+                            At Orion Publishers, we provide a seamless, professional book-writing experience with top-tier expertise, quality, and dedication.
                         </p>
 
                         <div class="buttoncustom mt-5">
                             <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">SCHEDULE A CONSULTATION <span>
-                                <img src="assets/images/buttons-right.webp"></span>
+                                <img src="../assets/images/buttons-right.webp"></span>
                             </a>
                         </div>
                     </div>
                     <div class="boxtwocta">
-                        <img src="assets/images/cta_thumb.webp">
+                        <img src="../assets/images/cta_thumb.webp">
                     </div>
                 </div>
             </div>
@@ -586,31 +573,32 @@ INCORPORATION</h3>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <p class="positionperas">Reach out to us from our contact form and we will get back to you shortly.</p>
+                        <p class="positionperas">Fill out our contact form, and we’ll get back to you shortly.</p>
                         <h2>Contact <span>us</span>.</h2>
 
                         <div class="buttoncustom mt-5">
                             <a href="#." data-bs-toggle="modal" data-bs-target="#loadspopup">SCHEDULE A CONSULTATION <span>
-                                <img src="assets/images/whitearrowbtn.webp"></span>
+                                <img src="../assets/images/whitearrowbtn.webp"></span>
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="sideimagecontact">
-                            <img src="assets/images/contact-image.webp">
+                            <img src="../assets/images/contact-image.webp">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+ 
 
         <div class="ourcontactsforms">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <h3>Ready to Share Your Story?</h3>
-                        <p>Amazon Publishers helped numerous authors transform their manuscripts into published works that captivate readers. Whether you’re a seasoned author seeking new avenues or an emerging writer with a fresh perspective, our Amazon Self-Publishing service welcomes you to join the ranks of successful authors who have embraced this empowering pathway to authorship.</p>
-                    </div>
+                <div class="col-lg-6">
+        <h3>Ready to Share Your Story?</h3>
+        <p>Orion Publishers has helped countless authors turn their manuscripts into published books that engage and inspire readers. Whether you're an experienced writer exploring new opportunities or a first-time author with a unique vision, our expert book writing and publishing services provide the guidance and support you need to bring your story to life. Join the many successful authors who have trusted Orion Publishers to make their publishing goals a reality.</p>
+    </div>
                     <div class="col-lg-6">
                         <div class="formbottom">
                             <form id="form2" method="post" action="/email">
