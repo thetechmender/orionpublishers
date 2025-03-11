@@ -8,7 +8,7 @@
         <div class="bannerheaders homebanner ">
             <!-- Banner Section -->
             <!-- Content Area -->
-            <div class="contentsectionbanner">
+            <div class="contentsectionbanner spacenewadd">
                 <div class="container">
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-6 col-md-12">
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="position-relative">
+                            <div class="position-relative myrels">
 
                                 <div class="forms customformstyles">
                                     <div class="myformtext text-center">
@@ -110,8 +110,8 @@
                                     </form>
                                 </div>
 
-                                <div class="bannerimage bkimages">
-                                    <img src="assets/images/banner-image-home.webp">
+                                <div class="bannerimage bkimages alignitemscenter">
+                                      <img src="../assets/images/bookmarketing-rightwebp.webp">
                                 </div>
                             </div>
 
@@ -155,7 +155,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="sideimageonesec">
-                            <img src="../assets/images/my-image-sectionone.webp">
+                            <img src="../assets/images/book-marketing-bottom.webp">
                         </div>
                     </div>
                 </div>

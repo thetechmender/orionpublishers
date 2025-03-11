@@ -16,17 +16,22 @@
         footer {
     display: none !important;
 }
-        .heighthundrd, .popupimage {
-    height: 100%;
+
+        body{background:#59D6E1; text-align:center}
+        .custom-flex-box.aroundservices-banner {
+    width: 100%;
+}
+        h1, h2 {color:#fff}
+
+        .fifty-boxes-full {
     height: 100vh;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
 }
 
-        .page-banner-default.heighthundrd .container-wrapper {
-    height: 100vh !important;
-    display: flex
-;
+.content-style-services-banner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
     </style>
 </head>
@@ -39,6 +44,7 @@
                 <div class="fifty-boxes-full">
                     <div class="content-style-services-banner">
                         <div class="mobile-orders2">
+                             <img loading="lazy" alt="" src="assets/images/logo.webp">
                             <h1>Thank you for signing up with Orion Publishers! </h1>
                             <h2>We’re excited to work with you and will be in touch soon to bring your story to life!</h2>
                            
@@ -47,7 +53,7 @@
                     </div>
                 </div>
                 
-
+       
 
             </div>
         </div>

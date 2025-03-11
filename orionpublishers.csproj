@@ -133,6 +133,7 @@
     <Content Include="audiobook-services.aspx" />
     <Content Include="Default - Copy.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="disclaimer-policy.aspx" />
     <Content Include="email.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -340,6 +341,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="disclaimer-policy.aspx.cs">
+      <DependentUpon>disclaimer-policy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="disclaimer-policy.aspx.designer.cs">
+      <DependentUpon>disclaimer-policy.aspx</DependentUpon>
     </Compile>
     <Compile Include="email.aspx.cs">
       <DependentUpon>email.aspx</DependentUpon>

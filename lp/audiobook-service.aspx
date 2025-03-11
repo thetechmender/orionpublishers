@@ -12,7 +12,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+     <title>Orion Publishers</title>
     <link href="/assets/css/style.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -26,11 +26,14 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/fav.webp" rel="shortcut icon" type="image/x-icon" />
     <style>
         ul.navbar-nav.mx-auto {
             display: none;
         }
+        button.navbar-toggler {
+    display: none;
+}
     </style>
 </head>
 
@@ -200,7 +203,7 @@
                                 </div>
 
                                 <div class="bannerimage bkimages">
-                                    <img src="../assets/images/banner-image-home.webp">
+                                 <img src="../assets/images/audiobook-images.webp">
                                 </div>
                             </div>
 
@@ -244,7 +247,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="sideimageonesec">
-                            <img src="../assets/images/my-image-sectionone.webp">
+                     <img src="../assets/images/audiobook-image-bottom.webp">
                         </div>
                     </div>
                 </div>

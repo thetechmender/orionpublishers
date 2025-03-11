@@ -1396,10 +1396,66 @@ span.font-textleadpopup {
 .bannerheaders.homebanner.homefinals .icon-row p {
     text-align: left;
 }
+/*.bannerimage.bkimages.alignitemscenter {
+    top: 50%;
+    transform: translateY(-50%);
+}*/
+.bannerimage.bkimages.alignitemscenter {
+    bottom: -40px;
+    right: -10px;
+    top: inherit;
+}
 
-/* For Smaller Screens - Navbar Links */
-@media (max-width: 1400px) {
-    .myh22nd .d-flex.justify-content-end {
+    .bannerimage.bkimages.alignitemscenter img {
+        width: 70%;
+    }
+
+.myrels .forms.customformstyles {
+    position: relative;
+}
+
+    .myrels .forms.customformstyles::before {
+        background: url('../images/book-marketing-top.webp');
+        width:100%;
+        display:block;
+        position:absolute;
+        top:0;
+        height:154px;
+        content:"";
+        
+
+    }
+    .myrels .forms.customformstyles::before {
+        background: url(../images/book-marketing-top.webp);
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: -60px;
+        height: 123px;
+        content: "";
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: 0;
+    }
+
+    .myrels .forms.customformstyles::after {
+        background: url(../images/youtube-left-bottom.webp);
+        width: 72px;
+        display: block;
+        position: absolute;
+        top: inherit;
+        height: 73px;
+        content: "";
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: -40px;
+    }
+.contentsectionbanner.spacenewadd {
+    padding-top: 150px;
+}
+    /* For Smaller Screens - Navbar Links */
+    @media (max-width: 1400px) {
+        .myh22nd .d-flex.justify-content-end {
             height: 100% !important;
             align-items: center;
         }
@@ -1514,7 +1570,24 @@ span.font-textleadpopup {
 
 
     @media (max-width: 992px) {
+        .contentsectionbanner.spacenewadd {
+            padding-top: 90px;
+        }
+        .bannerimage.bkimages.alignitemscenter {
+            /* bottom: inherit; */
+            /* right: 0; */
+            /* top: 50%; */
+            /* transform: translateY(-50%); */
+            bottom: 150px;
+            top: inherit;
+            right: 110px;
+        }
 
+        .position-relative.myrels {
+            margin-top: 80px !important;
+            display: block;
+            position: inherit !important;
+        }
         .homefinals .content-header.text-center.homefinals h1 {
             font-size: 35px !important;
         }
@@ -1597,10 +1670,18 @@ span.font-textleadpopup {
         .bannerimage {
             text-align: center;
             margin-top: 50px;
+            bottom: 0;
+            top: inherit;
+        }
+
+        .contentsectionbanner p.stylepara {
+        
+            font-size: 26px;
+            line-height: 30px;
         }
 
             .bannerimage img {
-                width: 50%;
+                width:100%;
             }
 
         .headingafterslider {
@@ -1805,6 +1886,11 @@ span.font-textleadpopup {
 
     @media (max-width: 480px) {
 
+        .forms.customformstyles {
+           
+            width: 100%;
+        }
+
         .contentsectionbanner .icon-row.d-flex p {
             line-height: 15px !important;
             font-size: 13px !important;
@@ -1873,7 +1959,13 @@ span.font-textleadpopup {
         .forms h2 {
             font-size: 16px;
         }
+        .btndflex a {
+            font-size: 12px;
+        }
     }
+
+
+
 
 
 

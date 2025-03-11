@@ -158,7 +158,7 @@
     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="sideimageonesec">
-                            <img src="assets/images/banner-pubslishing-home.webp">
+                            <img src="assets/images/book-publishings.webp">
                         </div>
                     </div>
                 </div>

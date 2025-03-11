@@ -115,7 +115,7 @@
                                 </div>
 
                                 <div class="bannerimage bkimages">
-                                    <img src="assets/images/banner-image-home.webp">
+                                    <img src="assets/images/audiobook-images.webp">
                                 </div>
                             </div>
 
@@ -159,7 +159,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="sideimageonesec">
-                            <img src="assets/images/my-image-sectionone.webp">
+                            <img src="assets/images/audiobook-image-bottom.webp">
                         </div>
                     </div>
                 </div>

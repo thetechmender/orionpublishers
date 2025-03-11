@@ -100,9 +100,7 @@
                                         <div class="d-flex justify-content-center needhelps">
                                             <input type="hidden" name="pageurl" id="pageurl" value="<%= Request.Url.AbsoluteUri %>" />
                                             <div class="submit">
-                                                <p>
-                                                    <span id="error-message2" style="color: Red;"></span>
-                                                </p>
+                                             
                                                 <button type="submit" class="btn btn-primary">Submit</button>
                                             </div>
                                         </div>
@@ -112,7 +110,7 @@
                                 </div>
 
                                 <div class="bannerimage bkimages">
-                                    <img src="assets/images/banner-image-home.webp">
+                                           <img src="../assets/images/banner-printing-banner.webp">
                                 </div>
                             </div>
 
@@ -156,7 +154,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="sideimageonesec">
-                            <img src="assets/images/my-image-sectionone.webp">
+                            <img src="assets/images/book-printing-bottom.webp">
                         </div>
                     </div>
                 </div>
