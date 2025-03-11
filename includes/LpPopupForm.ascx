@@ -20,14 +20,16 @@
                                         <p>Limited Time Offer</p>
                                     </div>
                                     <p class="stylepara">
-                                        Get <span class="redcolor pricefont"><b>50%</b></span> Off on
-                                            <span class="redcolor">
-                                                <span2 class="pricefont">2D</span2>
-                                                Animations</span>
+                                        Get <span class="redcolor pricefont"><b>50%</b></span> On All Services
+                                      
+                                                
+
+
+                                       
 
 
                                     </p>
-                                    <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Coupons Left</p>
+                                    <p class="mynewtextforms"><strong class="redcolor">HURRY!</strong> Only 9 Spots Available</p>
                                 </div>
                                 <%--     <div class="myheadings">
                                             <h2 class="mt-0 mb-2">Sign up Today and
